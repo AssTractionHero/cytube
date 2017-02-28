@@ -1,3 +1,3 @@
-# cytube
+# cytube /3.0/
 
-This is the home directory of the repository that I use to edit CyTube-related documentation.
+This is the branch of my repository where I am currently working on a re-write of the user guide for CyTube 3.0.
