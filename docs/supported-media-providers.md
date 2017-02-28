@@ -20,7 +20,7 @@
     Google Drive videos. That userscript, and detailed installation instructions can be found [here.](gdrive-script-install.md)
     * Find the video in your Drive, right click it, click "Share...", then click
       "Get shareable link".
-    * 
+    * Paste the link into your playlist.
 
 # Audio Providers
 
