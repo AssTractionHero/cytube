@@ -4,12 +4,12 @@
 ## I want to know more about...
 
 * [How to register and manage my user account](account-mgmt.md)
-* [Available user preferences](user-settings.md)
+* [How to change my user preferences](user-settings.md)
 * [How to create and manage my own CyTube channel](channel-mgmt.md)
 * [How to manage chat filters](chat-filters.md)
 * [How to add subtitles to Google Drive videos](google-drive-subtitles.md)
-* [Why my Google Drive media not is not playing](gdrive-script-install.md)
-* [How to set up my own CyTube server](cytube-3-install.md)
+* [Why media hosted on Google Drive will not play](gdrive-script-install.md)
+* [How to create and set up my own CyTube server](cytube-3-install.md)
 
 ## I need help!
 1. Please read the [FAQ](https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions) and check whether that answers your question.
