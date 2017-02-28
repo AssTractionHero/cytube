@@ -4,12 +4,12 @@
 ## I want to know more about...
 
 * [How to register and manage my user account](account-mgmt.md)
-* [How to change my user preferences](user-settings.md)
+* [How to locate and change my user preferences](user-settings.md)
 * [How to create and manage my own CyTube channel](channel-mgmt.md)
-* [How to manage chat filters](chat-filters.md)
+* [How to configure chat filters](chat-filters.md)
 * [What media providers and formats are supported](supported-media-providers.md)
+* [Why videos hosted on Google Drive will not play](gdrive-script-install.md)
 * [How to add subtitles to Google Drive videos](google-drive-subtitles.md)
-* [Why media hosted on Google Drive will not play](gdrive-script-install.md)
 * [How to create and configure my own CyTube server](cytube-3-install.md)
 
 ## I need help!
