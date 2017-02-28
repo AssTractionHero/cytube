@@ -15,8 +15,5 @@ messages. By default, accounts must be at least 10 minutes old to chat, and 1 ho
 in chat. The age of an account is determined below.  
 * If the user is logged in as a registered account, the registration time of 
      the account is used.  
-* Otherwise, the timestamp of the session cookie is used.
-     
-The session cookie is set whenever a user first joins a channel, and is reset
-whenever the user's IP address changes.  Different browsers will have unique
-session cookies.
+* Otherwise, the timestamp of the session cookie is used. The session cookie is set whenever a user first joins a channel, and is reset
+whenever the user's IP address changes.  Different browsers will have unique session cookies.
