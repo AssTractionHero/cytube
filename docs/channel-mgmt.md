@@ -1,4 +1,4 @@
-##Here you can learn more about how to create and manage channels on CyTube.
+## Here you can learn more about how to create and manage channels on CyTube.
 
 ## Channel Management
 You must be logged in to your account to manage your channels.
