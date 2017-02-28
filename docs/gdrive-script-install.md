@@ -47,12 +47,12 @@ The installation process for other browsers should work in much the same way:
 
 [Tampermonkey](http://tampermonkey.net/) supports most browsers.
 
-## Troubleshooting
+# Troubleshooting
 
-### Third-party cookies
+## Third-party cookies
 In both the Chrome and the Firefox installations of the userscript, **it's important that your browser does not block 
 third-party cookies**.
-#### Chrome
+### Chrome
 In Chrome, the setting for third-party cookies is found in 
 **Settings: Show advanced settings... > Privacy: Content settings... > Cookies**,
 or from entering **chrome://settings/content** into the omnibox. Either the checkbox for 
@@ -61,7 +61,7 @@ clicking on the **Manage exceptions...** button.
 
 ![](http://i.imgur.com/LCUiEVd.png)
 
-#### Firefox
+### Firefox
 In Firefox, the third-party cookies setting is found in **Options > Privacy: History**, or from entering **about:preferences#privacy**
 into the omnibox. It's shown only if Firefox uses custom settings for the History and the checkbox for 
 **Always use private browsing mode** is unchecked. The **Accept cookies from sites** checkbox should be checked 
@@ -70,7 +70,7 @@ clicking on the **Exceptions...** button.
 
 ![](http://i.imgur.com/RQtbCnX.png)
 
-### AdBlock and Privacy Badger
+## AdBlock and Privacy Badger
 Other extensions such as AdBlock and Privacy Badger may also block the necessary trackers for Google Drive media playback 
 on CyTube, even if third-party cookies are not blocked. Disabling the AdBlock or Privacy Badger extensions while on 
 the CyTube site should fix this problem.
