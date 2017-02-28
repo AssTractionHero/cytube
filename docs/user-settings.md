@@ -1,6 +1,6 @@
 ﻿# User Preferences
 
-From any CyTube channel, you can click the Options link at the top of the page to open a dialog where you can change your personal preferences.  This page explains each of the available options.
+From any CyTube channel, you can click the **Options** link at the top of the page to open a dialog where you can change your personal preferences.  This page explains each of the available options.
 
 ## General
 
@@ -8,7 +8,7 @@ General interface preferences.
 
 Setting | Description
 --------|------------
-Theme | Choose from different colorschemes for the website.
+Theme | Choose from different color schemes for the website.
 Layout | Choose from different layouts for elements on the page.  Fluid layouts will expand to fill the entire window, while compact layouts will remain the same size.  "Synchtube" layout is the same as the default layout, but mirrored.
 Ignore Channel CSS | Don't load custom stylesheets for each channel.  Requires a refresh to take effect.
 Ignore Channel JavaScript | Don't load custom scripts for each channel.  The Script Access tab allows you to manage your preferences on a per-channel basis, but if this setting is checked, scripts will be globally disallowed and you will not be prompted to accept them when joining a channel.
