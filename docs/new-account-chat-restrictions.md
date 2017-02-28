@@ -1,4 +1,4 @@
-### Restricting New Accounts from Chat
+## Restricting New Accounts from Chat
 With the rising availability and popularity of VPNs and proxies, dedicated
 trolls may often come back again and again with a new proxy after being IP
 banned and continue spamming.  In order to combat this, a new feature has been
