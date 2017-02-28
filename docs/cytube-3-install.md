@@ -1,3 +1,5 @@
+# CyTube 3.0 Installation Guide
+
 This guide will walk you through installing and configuring CyTube on a Linux server.  If you have questions, feel 
 free to stop by IRC ([irc.6irc.net#cytube](http://webchat.6irc.net/?channels=cytube)).  calzoneman is the developer 
 behind CyTube, but nuclearace has a lot of experience with it and can answer most of your questions if cal isn't around.
