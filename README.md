@@ -1,2 +1,4 @@
-# cytube
-This is the master branch the repository that I use to edit documentation for CyTube 3.0.
+
+# cytube /3.0/
+This is the branch of my repository where I am currently working on a re-write of the user guide and other documentation 
+for CyTube 3.0 for calzoneman of calzoneman/sync.
