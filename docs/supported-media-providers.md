@@ -78,7 +78,6 @@ configured to use version 3 of the API.
 Probably not.  Most media providers that are requested do not have a
 synchronization API, hence they cannot be synchronized on CyTube.  However, if a
 provider does meet the requirements and has sufficient demand, I will consider
+adding it.
 
 [Back to Quick Reference](index.md)
-
-adding it.
