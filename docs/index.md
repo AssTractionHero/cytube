@@ -7,10 +7,10 @@
 * [How to change my user preferences](user-settings.md)
 * [How to create and manage my own CyTube channel](channel-mgmt.md)
 * [How to manage chat filters](chat-filters.md)
-* [What media providers are supported](supported-media-providers.md)
+* [What media providers and formats are supported](supported-media-providers.md)
 * [How to add subtitles to Google Drive videos](google-drive-subtitles.md)
 * [Why media hosted on Google Drive will not play](gdrive-script-install.md)
-* [How to create and set up my own CyTube server](cytube-3-install.md)
+* [How to create and configure my own CyTube server](cytube-3-install.md)
 
 ## I need help!
 1. Please read the [FAQ](https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions) and check whether that answers your question.
