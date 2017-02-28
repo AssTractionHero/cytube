@@ -14,18 +14,18 @@ From your channel page (/r/channelname), users with moderator or higher rank wil
 
 ### General Settings
 
-* **Convert URLs in chat to links**: If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
-* **Allow voteskip**: If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.  
-* **Voteskip ratio**: The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
-* **Max video length**: Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
-* **Auto-AFK Delay**: After this delay (in seconds) of a user sending no chat messages and not voteskipping, the user will be automatically marked as "AFK".
-* **Throttle chat**: Enables a flood filter that will limit how quickly a user can send chat messages.
-* **# of messages allowed before throttling**: When **Throttle chat** is active, this controls the number of messages a user can send with no time delay before the flood filter engages.
-* **# of messages allowed per second**: After the threshold of the flood filter is exceeded, only this number of messages from a certain user are allowed per second.  Additional messages are ignored.  
-* **Delay before new accounts can chat:**  
-How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.
-* **Delay before new accounts can post links in chat:**  
-How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
+ Setting | Description
+ ----------------------
+**Convert URLs in chat to links** | If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
+**Allow voteskip** | If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.  
+**Voteskip ratio** | The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
+**Max video length** | Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
+**Auto-AFK Delay** | After this delay (in seconds) of a user sending no chat messages and not voteskipping, the user will be automatically marked as "AFK".
+**Throttle chat** | Enables a flood filter that will limit how quickly a user can send chat messages.
+**# of messages allowed before throttling** | When **Throttle chat** is active, this controls the number of messages a user can send with no time delay before the flood filter engages.
+**# of messages allowed per second** | After the threshold of the flood filter is exceeded, only this number of messages from a certain user are allowed per second.  Additional messages are ignored.  
+**Delay before new accounts can chat:** | How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.
+**Delay before new accounts can post links in chat:** | How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
     
 ### Admin Settings
   * **Page title**: The title displayed on the browser window / tab.
