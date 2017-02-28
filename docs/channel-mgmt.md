@@ -38,17 +38,16 @@ From your channel page (/r/channelname), users with moderator or higher rank wil
 **List channel publicly** | When enabled, displays the channel name on the index page.  Only active channels (channels with at least 1 user) will be displayed.
 
 ### Edit / Chat Filters
-Chat filters provide a way for specific text to be recognized and changed in chat messages.  For example, it could be used to transform profanity to strings of asterisks.  **Please do not use chat filters for image emotes.**  CyTube has an [Emotes](#wiki-edit--emotes-new-in-cytube-30) feature which is better-suited for adding emoticons. Adding them as chat filters is more difficult to manage and uses more server resources.  
+Chat filters provide a way for specific text to be recognized and changed in chat messages.  For example, it could be used to transform profanity to strings of asterisks.  **Please do not use chat filters for image emotes.**  CyTube 3.0 has an emotes feature which is better-suited for adding emoticons. Adding them as chat filters is more difficult to manage and uses more server resources.  
 
 ### Adding a new filter
 
  Setting | Description
- --------|------------
- 
-**Filter name**: A name to identify the filter.  For informational purposes only, but must be unique.
-**Filter regex**: A regular expression describing the text to match.
-**Flags**: A set of regular expression flags to apply.  `g` means to match all instances in the message (instead of just the first), `i` means to match without case sensitivity.
-**Replacement**: The HTML that will replace the matched text.
+ --------|------------ 
+**Filter name** | A name to identify the filter.  For informational purposes only, but must be unique.
+**Filter regex** | A regular expression describing the text to match.
+**Flags** | A set of regular expression flags to apply.  `g` means to match all instances in the message (instead of just the first), `i` means to match without case sensitivity.
+**Replacement** | The HTML that will replace the matched text.
 
 See the MDN page for [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) for reference on Regular Expressions and flags.
 
