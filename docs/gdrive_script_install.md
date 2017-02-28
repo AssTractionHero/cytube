@@ -10,14 +10,20 @@ The installation of the userscript into Chrome is a three-step process:
 1. First, in order to enable the installation of userscripts in Chrome you will need to add the userscript host extension 
 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) from the 
 [Chrome Web Store](https://chrome.google.com/webstore/category/extensions).
+   
    ![Tampermonkey Extension](http://i.imgur.com/sgQfsAw.png)
+   
 2. Second, confirm the addition of the Tampermonkey extension into Chrome by clicking on the **Add extension** button 
-in the dialog box that appears.  
+in the dialog box that appears.
+
    ![Confirming Tampermonkey](http://i.imgur.com/zA6zzKN.png)
+   
 3. Finally, open the [CyTube Google Drive userscript](https://cytu.be/js/cytube-google-drive.user.js?v=1.1) link, 
 which will turn the tab into an installation dialog. Here you may review the source code of the userscript. 
-Once you are satisfied it does only what the developers say that it will do, click the **Install** button. 
+Once you are satisfied it does only what the developers say that it will do, click the **Install** button.
+
    ![Installing the userscript](http://i.imgur.com/fssRiFO.png)
+   
 You may now return to CyTube and resume viewing Google Drive-hosted media normally. If you haven't logged-out of CyTube, 
 you will either need to logout and log back in again, or refresh the page to activate the userscript.
 
@@ -52,13 +58,16 @@ In Chrome, the setting for third-party cookies is found in
 or from entering **chrome://settings/content** into the omnibox. Either the checkbox for 
 **Block third-party cookies and site data** should be unchecked, or an exception for **cytu.be** should be made by 
 clicking on the **Manage exceptions...** button.
+
 ![](http://i.imgur.com/LCUiEVd.png)
+
 #### Firefox
 In Firefox, the third-party cookies setting is found in **Options > Privacy: History**, or from entering **about:preferences#privacy**
 into the omnibox. It's shown only if Firefox uses custom settings for the History and the checkbox for 
 **Always use private browsing mode** is unchecked. The **Accept cookies from sites** checkbox should be checked 
 and **Accept third-party cookies** should be set to **Always**, or an exception should be made for **cytu.be** by 
 clicking on the **Exceptions...** button.
+
 ![](http://i.imgur.com/RQtbCnX.png)
 
 ### AdBlock and Privacy Badger
