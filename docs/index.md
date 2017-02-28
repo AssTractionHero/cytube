@@ -1,9 +1,7 @@
 
-# User Guide #
+# CyTube 3.0 Quick Reference
 
-This user guide is a work in progress rewrite of the old user guide.  If you notice something is missing, it probably hasn't been ported over from [here](https://github.com/calzoneman/sync/wiki/CyTube-3.0-User-Guide) yet.
-
-## I want to know more about... ##
+## I want to know more about...
 
 * [Registering and managing my user account](account-mgmt.md)
 * [How to create and manage my own CyTube channel](channel-mgmt.md)
@@ -13,7 +11,7 @@ This user guide is a work in progress rewrite of the old user guide.  If you not
 * [Why my Google Drive media not is not playing](https://github.com/calzoneman/sync/wiki/Google Drive Userscript Installation Guide)
 * [How to set up my own CyTube server](https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide)
 
-## I need help! ##
+## I need help!
 
 1. Please read the [FAQ](https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions) and check whether that answers your question.
 2. There is a more extensive explanation of the functions of CyTube in the [CyTube 3.0 User Guide](https://github.com/calzoneman/sync/wiki/CyTube-3.0-User-Guide).
