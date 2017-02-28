@@ -2,7 +2,7 @@
 
 ## Important Notice
 
-**After January 10th, 2017, CyTube supports media hosted only on HTTPS-compliant sites.**
+**As of January 10th, 2017, CyTube supports media hosted only on HTTPS-compliant sites.**
 
 # Video Providers
   - YouTube:
