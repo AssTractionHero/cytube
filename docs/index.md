@@ -9,7 +9,7 @@
 * [How to manage chat filters](chat-filters.md)
 * [How to add subtitles to Google Drive videos](google-drive-subtitles.md)
 * [Why my Google Drive media not is not playing](gdrive-script-install.md)
-* [How to set up my own CyTube server](https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide)
+* [How to set up my own CyTube server](cytube-3-install.md)
 
 ## I need help!
 
