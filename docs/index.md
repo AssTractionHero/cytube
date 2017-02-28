@@ -8,7 +8,7 @@
 * [How to create and manage my own CyTube channel](channel-mgmt.md)
 * [How to manage chat filters](chat-filters.md)
 * [How to add subtitles to Google Drive videos](google-drive-subtitles.md)
-* [Why my Google Drive media not is not playing](https://github.com/calzoneman/sync/wiki/Google Drive Userscript Installation Guide)
+* [Why my Google Drive media not is not playing](gdrive-userscript-install)
 * [How to set up my own CyTube server](https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide)
 
 ## I need help!
