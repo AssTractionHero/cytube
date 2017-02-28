@@ -10,3 +10,5 @@ Once you have uploaded your subtitles, they should be available the next time th
 ### Limitations
 * Google Drive converts the subtitles you upload into a custom format which loses some information from the original captions. For example, annotations for who is speaking are not preserved.
 * As far as I know, Google Drive is not able to automatically detect when subtitle tracks are embedded within the video file. You must upload the subtitles separately (there are plenty of tools to extract captions / subtitles from .mkv and .mp4 files.)
+
+[Back to Quick Reference](index.md)
