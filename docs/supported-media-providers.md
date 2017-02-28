@@ -35,7 +35,7 @@
   - Ustream
   - RTMP streams: `rtmp://(stream link)`
 
-## Miscellaneous
+# Miscellaneous
 
   - H.264 encoded .mp4 and .flv, VP8 / VP9 encoded WebM, and Ogg / Theora videos can
     be added as a direct link to the video file.
