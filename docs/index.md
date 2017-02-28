@@ -6,9 +6,12 @@ This user guide is a work in progress rewrite of the old user guide.  If you not
 ## I want to know more about... ##
 
 * [Registering and managing my user account](account-mgmt.md)
+* [How to create and manage my own CyTube channel](channel-mgmt.md)
 * [Available user preferences](user-settings.md)
-* [Adding subtitles to Google Drive videos](google-drive-subtitles.md)
 * [Managing chat filters](chat-filters.md)
+* [Adding subtitles to Google Drive videos](google-drive-subtitles.md)
+* [Why my Google Drive media not is not playing](https://github.com/calzoneman/sync/wiki/Google Drive Userscript Installation Guide)
+* [How to set up my own CyTube server](https://github.com/calzoneman/sync/wiki/CyTube-3.0-Installation-Guide)
 
 ## I need help! ##
 
