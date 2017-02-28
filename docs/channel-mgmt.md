@@ -15,7 +15,7 @@ From your channel page (/r/channelname), users with moderator or higher rank wil
 ### General Settings
 
  Setting | Description
- --------|-------------
+ --------|------------
  **Convert URLs in chat to links** | If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
 **Allow voteskip** | If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.  
 **Voteskip ratio** | The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
@@ -28,20 +28,28 @@ From your channel page (/r/channelname), users with moderator or higher rank wil
 **Delay before new accounts can post links in chat:** | How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
     
 ### Admin Settings
-  * **Page title**: The title displayed on the browser window / tab.
-  * **Password**: An optional password required for non-moderators to enter the room.  Leave blank to disable.
-  * **External CSS**: URL to an external stylesheet to apply to the page.
-  * **External Javascript**: URL to an external script to run on the page.
-  * **List channel publicly**: When enabled, displays the channel name on the index page.  Only active channels (channels with at least 1 user) will be displayed.
+
+ Setting | Description
+ --------|------------
+ 
+**Page title** | The title displayed on the browser window / tab.
+**Password** | An optional password required for non-moderators to enter the room.  Leave blank to disable.
+**External CSS** | URL to an external stylesheet to apply to the page.
+**External Javascript** | URL to an external script to run on the page.
+**List channel publicly** | When enabled, displays the channel name on the index page.  Only active channels (channels with at least 1 user) will be displayed.
 
 ### Edit / Chat Filters
 Chat filters provide a way for specific text to be recognized and changed in chat messages.  For example, it could be used to transform profanity to strings of asterisks.  **Please do not use chat filters for image emotes.**  CyTube has an [Emotes](#wiki-edit--emotes-new-in-cytube-30) feature which is better-suited for adding emoticons. Adding them as chat filters is more difficult to manage and uses more server resources.  
 
 ### Adding a new filter
-  * **Filter name**: A name to identify the filter.  For informational purposes only, but must be unique.
-  * **Filter regex**: A regular expression describing the text to match.
-  * **Flags**: A set of regular expression flags to apply.  `g` means to match all instances in the message (instead of just the first), `i` means to match without case sensitivity.
-  * **Replacement**: The HTML that will replace the matched text.
+
+ Setting | Description
+ --------|------------
+ 
+**Filter name**: A name to identify the filter.  For informational purposes only, but must be unique.
+**Filter regex**: A regular expression describing the text to match.
+**Flags**: A set of regular expression flags to apply.  `g` means to match all instances in the message (instead of just the first), `i` means to match without case sensitivity.
+**Replacement**: The HTML that will replace the matched text.
 
 See the MDN page for [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) for reference on Regular Expressions and flags.
 
