@@ -15,9 +15,8 @@ From your channel page (/r/channelname), users with moderator or higher rank wil
 ### General Settings
 
  Setting | Description
- ----------------------
- 
-**Convert URLs in chat to links** | If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
+ --------|-------------
+ **Convert URLs in chat to links** | If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
 **Allow voteskip** | If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.  
 **Voteskip ratio** | The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
 **Max video length** | Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
