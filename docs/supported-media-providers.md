@@ -1,9 +1,10 @@
-# Video Providers
+# Media Providers
 
 ## Important Notice
 
 **After January 10th, 2017, CyTube supports media hosted only on HTTPS-compliant sites.**
 
+# Video Providers
   - YouTube:
     * Single video: `https://www.youtube.com/watch?v=(video id)` or
       `https://youtu.be/(video id)`
