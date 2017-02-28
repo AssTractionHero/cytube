@@ -24,14 +24,13 @@ From your channel page (/r/channelname), users with moderator or higher rank wil
 **Throttle chat** | Enables a flood filter that will limit how quickly a user can send chat messages.
 **# of messages allowed before throttling** | When **Throttle chat** is active, this controls the number of messages a user can send with no time delay before the flood filter engages.
 **# of messages allowed per second** | After the threshold of the flood filter is exceeded, only this number of messages from a certain user are allowed per second.  Additional messages are ignored.  
-**Delay before new accounts can chat:** | How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.
-**Delay before new accounts can post links in chat:** | How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
+**Delay before new accounts can chat** | How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.
+**Delay before new accounts can post links in chat** | How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
     
 ### Admin Settings
 
  Setting | Description
- --------|------------
- 
+ --------|------------ 
 **Page title** | The title displayed on the browser window / tab.
 **Password** | An optional password required for non-moderators to enter the room.  Leave blank to disable.
 **External CSS** | URL to an external stylesheet to apply to the page.
