@@ -32,3 +32,4 @@ By default, channels come with a few default chat filters that can be used for f
   * `` `message` `` - `message` (monospace, code text)
   * `~~message~~` - ~~message~~
   
+[Back to Quick Reference](index.md)
