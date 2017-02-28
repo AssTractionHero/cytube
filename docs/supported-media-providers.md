@@ -11,9 +11,11 @@
   - Google Drive: `https://docs.google.com/file/d/(doc id)/edit` or
     `https://drive.google.com/open?id=(doc id)`
     * As of 14 September 2015, Google has made a breaking change and Google Drive videos on CyTube use a hacky flash 
-    player solution that may or may not work for you.
-    * Find the video in your drive, right click it, click "Share...", then click
+    player solution that may or may not work for you. A userscript has since been developed that gives greater functionality for
+    Google Drive videos. That userscript, and detailed installation instructions can be found [here.](gdrive-script-install.md)
+    * Find the video in your Drive, right click it, click "Share...", then click
       "Get shareable link".
+    * 
 
 # Audio Providers
 
