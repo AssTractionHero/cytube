@@ -1,4 +1,4 @@
-# Registering a New Account
+### Registering a New Account
 To register an account, click the **Account** dropdown on the navigation bar at the top of the page, then click **Register**. This option will appear only if you are not already logged in. When choosing a username, make sure it meets the following requirements:
 * It must be 1-20 characters long.
 * It may contain only the letters 'A' through 'Z' (upper or lowercase), the digits '0' through '9', hyphens '-', and underscores '_'.
