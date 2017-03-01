@@ -22,7 +22,8 @@ Setting | Description
 Synchronize video playback | By default, CyTube attempts to synchronize the video so that everyone is watching at the same time.  Some users with poor internet connections may wish to disable this in order to prevent excessive buffering due to constantly seeking forward.
 Synch threshold | The number of seconds your video is allowed to be ahead/behind before it is forcibly seeked to the correct position.  Should be set to at least 2 seconds to avoid buffering problems and choppy playback.
 Set wmode=transparent | There's probably no reason to touch this unless you know what you're doing.  Having a non-transparent wmode can cause modals to display behind the video player, but also can cause performance issues in some situations.
-Remove the video player | Automatically remove the video player on page load.  Equivalent to manually clicking **Layout->Remove Video** every time you load a channel.
+Remove the video player | Automatically remove the video player on page load.  Equivalent to manually clicking
+**Layout->Remove Video** every time you load a channel.
 Hide playlist buttons by default | Hides the control buttons from each video in the playlist, so that only the title is displayed.  The control buttons can be shown by right clicking the video item in the playlist.
 Old style playlist buttons | Legacy feature introduced in CyTube 2.0 for those who preferred the old 1.0-style video control buttons.
 Quality Preference | Sets the preferred quality for player types that support quality selection (currently, this is YouTube, Vimeo, Dailymotion, Google Drive, and Google+).  If your preferred quality is not available, the next lowest quality will be used.
@@ -43,7 +44,7 @@ Disable chat emotes | Disables the automatic conversion of channel-defined emote
 
 ## Script Access
 
-Manage your preferences for allowing or denying custom scripts for channels you've visited.  A channel will only appear here if you checked **Remember my preference"** when allowing or denying a channel script.  You can toggle the preference between **Allow** and **Deny**, or click **Clear Preference** to remove the saved preference, so that you will be asked every time you join the channel.
+Manage your preferences for allowing or denying custom scripts for channels you've visited.  A channel will only appear here if you checked **Remember my preference** when allowing or denying a channel script.  You can toggle the preference between **Allow** and **Deny**, or click **Clear Preference** to remove the saved preference, so that you will be asked every time you join the channel.
 
 ## Moderator
 
