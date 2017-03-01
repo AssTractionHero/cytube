@@ -1,6 +1,6 @@
 # Chat Commands
 ### Standard Commands
-  * `/me <message>` - Sends a message as an action, for example *calzoneman gets a snack*.
+  * `/me <message>` - Sends a message as an action, e.g. *calzoneman gets a snack*.
   * `/sp <message>` - Hides a message in a hover-to-expose spoiler box.
   * `/afk` - Toggles your AFK status.  You will automatically be unmarked as AFK after sending a chat message or voteskipping a video.
 
