@@ -11,7 +11,7 @@
 * [What media providers and formats are supported](supported-media-providers.md)
 * [Why videos hosted on Google Drive will not play](gdrive-script-install.md)
 * [How to add subtitles to Google Drive videos](google-drive-subtitles.md)
-* [How to create and configure my own CyTube server](cytube-3-install.md)
+* [How to install and configure my own CyTube server](cytube-3-install.md)
 
 ## I need more help with answering my question!
 1. Please read the [FAQ](https://github.com/calzoneman/sync/wiki/Frequently-Asked-Questions) and check whether that answers your question.
