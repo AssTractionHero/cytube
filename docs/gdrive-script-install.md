@@ -44,7 +44,7 @@ The script is also compatible with [Greasemonkey](https://addons.mozilla.org/en-
 
 ## Other browsers
 The installation process for other browsers should work in much the same way: 
- 1. Install a userscript host extension/plugin. 
+ 1. Install a userscript host extension / plugin. 
  2. Install the [CyTube Google Drive userscript](https://cytu.be/js/cytube-google-drive.user.js?v=1.1) into it.
 
 [Tampermonkey](http://tampermonkey.net/) supports most browsers.
@@ -55,16 +55,13 @@ The installation process for other browsers should work in much the same way:
 In both the Chrome and the Firefox installations of the userscript, **it's important that your browser does not block 
 third-party cookies**.
 ### Chrome
-In Chrome, the setting for third-party cookies is found in 
-**Settings: Show advanced settings... > Privacy: Content settings... > Cookies**,
-or from entering **chrome://settings/content** into the omnibox. Either the checkbox for 
-**Block third-party cookies and site data** should be unchecked, or an exception for **cytu.be** should be made by 
+In Chrome, the setting for third-party cookies is found from entering **chrome://settings/content** into the omnibox. Either the checkbox for **Block third-party cookies and site data** should be unchecked, or an exception for **cytu.be** should be made by 
 clicking on the **Manage exceptions...** button.
 
 ![](http://i.imgur.com/LCUiEVd.png)
 
 ### Firefox
-In Firefox, the third-party cookies setting is found in **Options > Privacy: History**, or from entering **about:preferences#privacy**
+In Firefox, the third-party cookies setting is found from entering **about:preferences#privacy**
 into the omnibox. It's shown only if Firefox uses custom settings for the History and the checkbox for 
 **Always use private browsing mode** is unchecked. The **Accept cookies from sites** checkbox should be checked 
 and **Accept third-party cookies** should be set to **Always**, or an exception should be made for **cytu.be** by 
