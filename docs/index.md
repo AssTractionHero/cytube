@@ -5,6 +5,7 @@
 
 * [How to register and manage my user account](account-mgmt.md)
 * [How to locate and change my user preferences](user-settings.md)
+* [How to change the size of the video](video-size.md)
 * [How to register and manage my own CyTube channel](channel-mgmt.md)
 * [How to use chat commands to filter text or moderate my channel](chat-commands.md)
 * [How to configure chat filters for my channel](chat-filters.md)
