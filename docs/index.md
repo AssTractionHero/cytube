@@ -9,6 +9,7 @@
 * [How to register and manage my own CyTube channel](channel-mgmt.md)
 * [How to use chat commands to filter text or moderate my channel](chat-commands.md)
 * [How to configure chat filters for my channel](chat-filters.md)
+* [How to restrict new accounts from posting text / links in chat](new-account-chat-restrictions.md)
 * [What media providers and formats are supported](supported-media-providers.md)
 * [Why videos hosted on Google Drive will not play](gdrive-script-install.md)
 * [How to add subtitles to Google Drive videos](google-drive-subtitles.md)
