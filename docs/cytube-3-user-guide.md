@@ -1,3 +1,5 @@
+# CyTube 3.0 User Guide  
+
 ### Before you proceed...
 Please consider scanning the [FAQ](frequently-asked-questions.md) or the [Quick Reference](index.md) first to check if your question is answered there.
 
