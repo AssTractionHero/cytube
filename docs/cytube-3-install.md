@@ -6,13 +6,13 @@ behind CyTube, but nuclearace has a lot of experience with it and can answer mos
 
 # Table of Contents
   1. [Requirements](#requirements)
-  2. [Installation of prerequisites](#wiki-installation-of-prerequisites)
-  3. [Installation of CyTube 3.0](#wiki-installation-of-cytube-30)
-  4. [Configuration](#wiki-configuration)
-  5. [Running](#wiki-running)
-  6. [Maintenance](#wiki-maintenance)
-  7. [Google Drive Userscript Setup](#wiki-google-drive-userscript-setup)
-  8. [Importing a CyTube 2.4.6 database](#wiki-importing-a-cytube-246-database)
+  2. [Installation of prerequisites](#installation-of-prerequisites)
+  3. [Installation of CyTube 3.0](#installation-of-cytube-30)
+  4. [Configuration](#configuration)
+  5. [Running](#running)
+  6. [Maintenance](#maintenance)
+  7. [Google Drive Userscript Setup](#google-drive-userscript-setup)
+  8. [Importing a CyTube 2.4.6 database](#importing-a-cytube-246-database)
 
 # Requirements
 
