@@ -1,8 +1,8 @@
-# User Preferences
+## User Preferences
 
 From any CyTube channel, you can click the **Options** link at the top of the page to open a dialog where you can change your personal preferences.  This page explains each of the available options.
 
-## General
+### General
 
 General interface preferences.
 
@@ -13,7 +13,7 @@ Layout | Choose from different layouts for elements on the page.  Fluid layouts 
 Ignore Channel CSS | Don't load custom stylesheets for each channel.  Requires a refresh to take effect.
 Ignore Channel JavaScript | Don't load custom scripts for each channel.  The Script Access tab allows you to manage your preferences on a per-channel basis, but if this setting is checked, scripts will be globally disallowed and you will not be prompted to accept them when joining a channel.
 
-## Playback
+### Playback
 
 Preferences for video playback and the playlist.
 
@@ -27,7 +27,7 @@ Hide playlist buttons by default | Hides the control buttons from each video in 
 Old style playlist buttons | Legacy feature introduced in CyTube 2.0 for those who preferred the old 1.0-style video control buttons.
 Quality Preference | Sets the preferred quality for player types that support quality selection (currently, this is YouTube, Vimeo, Dailymotion, Google Drive, and Google+).  If your preferred quality is not available, the next lowest quality will be used.
 
-## Chat
+### Chat
 
 Preferences for the integrated chatroom.
 
@@ -41,11 +41,11 @@ Notification sound on new messages | Controls the conditions under which a notif
 Add a send button to chat | Adds a clickable button to send chat messages.  Only really useful for virtual keyboards that lack a dedicated Enter key.
 Disable chat emotes | Disables the automatic conversion of channel-defined emote codes to inline images.
 
-## Script Access
+### Script Access
 
 Manage your preferences for allowing or denying custom scripts for channels you've visited.  A channel will only appear here if you checked **Remember my preference** when allowing or denying a channel script.  You can toggle the preference between **Allow** and **Deny**, or click **Clear Preference** to remove the saved preference, so that you will be asked every time you join the channel.
 
-## Moderator
+### Moderator
 
 Settings that only apply to channel moderators.
 
@@ -56,4 +56,4 @@ Show join messages | Display a message every time a user logs in to the chat.
 Show shadowmuted messages | Show chat messages from shadowmuted users.  These messages will appear ~~struck through~~, and only moderators with this setting enabled will see them.  
 
 [Return to the top of this page](#user-preferences)  
-[Back to Quick Reference](index.md)
+[Back to CyTube 3.0 User Guide](index.md)
