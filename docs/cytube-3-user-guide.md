@@ -4,33 +4,33 @@ Please consider scanning the [FAQ](frequently-asked-questions.md) or the [Quick 
 ***
 # Table of Contents
 1. [What's New](#wiki-whats-new)
-2. [Registering a New Account](#wiki-registering-a-new-account)  
-      2.1. [Account Profile](#wiki-account-profile)  
-      2.2. [Changing your Password or Email Address](#wiki-changing-your-password-or-email-address)  
-      2.3. [Recovering an Account If You Lost The Password](#wiki-recovering-an-account-if-you-lost-the-password)  
-3. [User Settings](#wiki-user-settings)  
-     3.1. [General](#wiki-general)  
-     3.2. [Playback](#wiki-playback)  
-     3.3. [Chat](#wiki-chat)  
-     3.4. [Moderator](#wiki-moderator)
-4. [Channel UI](#wiki-channel-ui)  
-     4.1. [Chat Box](#wiki-chat-box)  
-     4.2. [Playlist Controls](#wiki-playlist-controls)  
-     4.3. [Playlist](#wiki-playlist)  
-     4.4. [Poll Area](#wiki-poll-area)  
-     4.5. [Changing the Size of the Video Frame](#wiki-changing-the-size-of-the-video-frame)  
-5. [Channel Management](#wiki-channel-management)  
-     5.1. [Registering a Channel](#wiki-registering-a-channel)  
-     5.2. [Deleting a Channel](#wiki-deleting-a-channel)  
-     5.3. [Channel Settings](#wiki-channel-settings)  
-6. [Chat Commands](#wiki-chat-commands)  
-     6.1. [Standard Commands](#wiki-standard-commands)  
-     6.2. [Moderator Commands](#wiki-moderator-commands)  
-     6.3. [Default Formatting](#wiki-default-formatting)  
-7. [Supported Media Providers](#wiki-supported-media-providers)
-8. [Adding Subtitles to Google Drive Videos](#wiki-adding-subtitles-to-google-drive-videos)
-9. [Userscript for Google Drive Media Playback](#wiki-userscript-for-google-drive-media-playback)
-10. [Help / Support](#wiki-help--support)
+2. [Registering a New Account](#registering-a-new-account)  
+      2.1. [Account Profile](#account-profile)  
+      2.2. [Changing your Password or Email Address](#changing-your-password-or-email-address)  
+      2.3. [Recovering an Account If You Lost The Password](#recovering-an-account-if-you-lost-the-password)  
+3. [User Settings](#user-settings)  
+     3.1. [General](#general)  
+     3.2. [Playback](#playback)  
+     3.3. [Chat](#chat)  
+     3.4. [Moderator](#moderator)
+4. [Channel UI](#channel-ui)  
+     4.1. [Chat Box](#chat-box)  
+     4.2. [Playlist Controls](#playlist-controls)  
+     4.3. [Playlist](#playlist)  
+     4.4. [Poll Area](#poll-area)  
+     4.5. [Changing the Size of the Video Frame](#changing-the-size-of-the-video-frame)  
+5. [Channel Management](#channel-management)  
+     5.1. [Registering a Channel](#registering-a-channel)  
+     5.2. [Deleting a Channel](#deleting-a-channel)  
+     5.3. [Channel Settings](#channel-settings)  
+6. [Chat Commands](#chat-commands)  
+     6.1. [Standard Commands](#standard-commands)  
+     6.2. [Moderator Commands](#moderator-commands)  
+     6.3. [Default Formatting](#default-formatting)  
+7. [Supported Media Providers](#supported-media-providers)
+8. [Adding Subtitles to Google Drive Videos](#adding-subtitles-to-google-drive-videos)
+9. [Userscript for Google Drive Media Playback](#userscript-for-google-drive-media-playback)
+10. [Help / Support](#help--support)
 
 ***
 # What's new
@@ -247,7 +247,7 @@ session cookies.
   * **List channel publicly**: When enabled, displays the channel name on the index page.  Only active channels (channels with at least 1 user) will be displayed.
 
 ### Edit / Chat Filters
-Chat filters provide a way for specific text to be recognized and changed in chat messages.  For example, it could be used to transform profanity to strings of asterisks.  **Please do not use chat filters for image emotes.**  CyTube has an [Emotes](#wiki-edit--emotes-new-in-cytube-30) feature which is better-suited for adding emoticons. Adding them as chat filters is more difficult to manage and uses more server resources.  
+Chat filters provide a way for specific text to be recognized and changed in chat messages.  For example, it could be used to transform profanity to strings of asterisks.  **Please do not use chat filters for image emotes.**  CyTube has an [Emotes](#edit--emotes-new-in-cytube-30) feature which is better-suited for adding emoticons. Adding them as chat filters is more difficult to manage and uses more server resources.  
 
 ### Adding a new filter
   * **Filter name**: A name to identify the filter.  For informational purposes only, but must be unique.
@@ -337,7 +337,7 @@ By default, channels come with a few default chat filters that can be used for f
   * `~~message~~` - ~~message~~
 
 #  Supported Media Providers
-See the [FAQ](https://github.com/AssTractionHero/cytube/wiki/FAQ#which-media-providers-are-supported) for a list of supported media providers.
+See the [FAQ](frequently-asked-questions.md#which-media-providers-are-supported) for a list of supported media providers.
 
 # Adding Subtitles to Google Drive Videos
 1. Upload your video to Google Drive.
@@ -353,13 +353,13 @@ Once you have uploaded your subtitles, they should be available the next time th
 * As far as I know, Google Drive is not able to automatically detect when subtitle tracks are embedded within the video file. You must upload the subtitles separately (there are plenty of tools to extract captions / subtitles from .mkv and .mp4 files.)
 
 # Userscript for Google Drive Media Playback
-An additional userscript must be installed in a browser host extension / add-on in order to view media on CyTube that's hosted on Google Drive. A detailed installation guide can be found here: [CyTube Google Drive Userscript Installation Guide](https://github.com/calzoneman/sync/wiki/Google Drive Userscript Installation Guide)
+An additional userscript must be installed in a browser host extension / add-on in order to view media on CyTube that's hosted on Google Drive. A detailed installation guide can be found here: [CyTube Google Drive Userscript Installation Guide](gdrive-script-install.md)
 
 # Help / Support
 If you need help, you are encouraged to join the official CyTube support channel in IRC at [irc.6irc.net#cytube](http://webchat.6irc.net/?channels=cytube).  calzoneman is the developer, nuclearace is a CyTube admin, and many other people in the channel can help with common questions.
 
 Please be patient; users in the support channel may not be able respond immediately. Most of the users in the channel are in the United States, so if you have trouble getting a response please try to come during USA daytime hours.
 
-[Return to the Table of Contents for this page](#wiki-table-of-contents)  
+[Return to the Table of Contents for this page](#table-of-contents)  
 [Go to the FAQ page](frequently-asked-questions.md)  
 [Go to the Quick Reference page](index.md)
