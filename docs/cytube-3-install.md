@@ -280,5 +280,6 @@ Copy the `chandump` folder from your old CyTube Directory to your CyTube 3 folde
 Once the import script has finished, you can begin using CyTube 3.  Be sure to inspect for errors before you delete 
 any data from your CyTube 2 database!
 
-[Return to the top of this page](#cytube-30-installation-guide)
-[Back to Quick Reference](index.md)
+[Return to the top of this page](#cytube-30-installation-guide)  
+[Back to Quick Reference](index.md)  
+
