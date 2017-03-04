@@ -21,7 +21,7 @@
     
 **Note:** In August of 2016, the decision was made to phase out native support for Google Drive. This has since been replaced with a userscript that is necessary to play Google Drive videos.  
     
-    That userscript, and detailed installation instructions can be found [here.](gdrive-script-install.md)
+That userscript, and detailed installation instructions can be found [here.](gdrive-script-install.md)
  
 # Audio Providers
 
