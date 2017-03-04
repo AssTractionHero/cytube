@@ -154,8 +154,8 @@ Below the video port, there are 2 strips of buttons for playlist and video contr
 
 On the left are playlist controls:  
 
-     Control name      | Description
------------------------|------------  
+     Control name | Description
+------------------|------------  
 Search for a video: | Search for a video title in the channel library or on YouTube.
 Add from URL: | Paste a supported media link and add it to the playlist.
 Embed a custom frame: | Embed an `<iframe>` or `<object>` tag for media that is not officially supported.
@@ -164,9 +164,10 @@ Clear playlist: | Remove all videos from the playlist.
 Shuffle playlist: | Randomize the order of the playlist and start playing from the top.
 Lock / Unlock playlist: | Toggle the locked status of the playlist.  Unlocked state is useful for allowing non-moderators to add videos to the playlist.  Exact open / locked permissions can be configured under the [Channel Settings](#wiki-edit--permissions) permissions editor.
 
-On the right are video controls:
-       Control name      | Description
- ------------------------|------------
+On the right are video controls:  
+
+    Control name | Description
+ ----------------|------------ 
 Reload the video player: | Remove the current video and load it again. (Useful for dealing with playback issues.)
 Retrieve playlist links: | Get a comma-separated list of all the videos in the playlist.
 Voteskip: | Vote to skip the currently playing video.  If enough votes are counted, the next item in the playlist will immediately begin playing.
@@ -176,9 +177,10 @@ The **Retrieve playlist links** button will not function if you do not have the 
 ### Playlist
 The playlist is a list of videos that will be played in order from top to bottom.  Each entry will display the title and duration of the video.  Each item has a few buttons to perform certain actions, the locations of which will depend on how your user preferences are set.  Click and drag playlist items to rearrange the order.
 
-Item actions:
-         Action        | Description
- ----------------------|------------
+Item actions:  
+
+    Action | Description
+ ----------|------------
 Play: | Immediately jump to this playlist item and begin playing.
 Queue Next: | Move this video to the next slot after the currently playing video.
 Make Temporary / Permanent: | Toggle whether this video will be automatically removed from the playlist after playing once.
