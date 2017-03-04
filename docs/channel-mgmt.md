@@ -95,5 +95,5 @@ The ban list shows a table of ban entries for the channel.  Each entry consists 
 ## Log
 The log allows you to see chat history as well as moderation actions, playlist changes, and other data about your channel.  Above the log text, there is a multiple select box that you can use to display only certain kinds of log data (e.g. chat, joins/quits, playlist actions, moderation actions, etc.)  
 
-[Return to the top of this page](#channel-settings)  
+[Return to the top of this page](#channel-management)  
 [Back to Quick Reference](index.md)
