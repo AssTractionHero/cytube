@@ -11,7 +11,8 @@ behind CyTube, but nuclearace has a lot of experience with it and can answer mos
   4. [Configuration](#wiki-configuration)
   5. [Running](#wiki-running)
   6. [Maintenance](#wiki-maintenance)
-  7. [Importing a CyTube 2.4.6 database](#wiki-importing-a-cytube-246-database)
+  7. [Google Drive Userscript Setup](#wiki-google-drive-userscript-setup)
+  8. [Importing a CyTube 2.4.6 database](#wiki-importing-a-cytube-246-database)
 
 # Requirements
 
@@ -221,6 +222,31 @@ You should take frequent backups in case something happens to your server.  The 
 mysqldump --quick --skip-lock-tables -u cytube -psupersecretpassword cytube > my_database_backup.sql
 tar cjf my_channels_backup.tar.bz2 chandump
 ```
+
+# Google Drive Userscript Setup
+
+In response to increasing difficulty and complexity of maintaining Google Drive
+support, the native player has been phased out in favor of requiring a
+userscript to allow each client to fetch the video stream links for themselves.
+Users will be prompted with a link to `/google_drive_userscript`, which explains
+the situation and instructs how to install the userscript.
+
+As a server admin, you must generate the userscript from the template by using
+the following command:
+
+```sh
+npm run generate-userscript <site name> <url> [<url>...]
+```
+
+The first argument is the site name as it will appear in the userscript title.
+The remaining arguments are the URL patterns on which the script will run.  For
+example, for cytu.be I use:
+
+```sh
+npm run generate-userscript CyTube http://cytu.be/r/* https://cytu.be/r/*
+```
+
+This will generate `www/js/cytube-google-drive.user.js`.
 
 # Importing a CyTube 2.4.6 database
 
