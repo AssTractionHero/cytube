@@ -40,7 +40,7 @@ with common problems and questions.
 
 ## Which media providers are supported?
 
-**Video Providers**
+### Video Providers
 
   * YouTube:
     * Single video: `https://www.youtube.com/watch?v=(video id)` or
@@ -55,17 +55,17 @@ with common problems and questions.
     * Find the video in your drive, right click it, click "Share...", then click
       "Get shareable link". 
 
-**Note:**  
+**Important**  
 In August 2016, after numerous failures that resulted in the disruption of the operation of many channels, 
 the decision was made to phase out native support for Google Drive and instead require users to install a 
 userscript to view Google Drive-hosted videos.  Installation instructions can be found [here]
 (gdrive-script-install.md) for the userscript that gives the necessary functionality to play Google Drive media.
  
-**Audio Providers**
+### Audio Providers
 
   * Soundcloud
 
-**Streaming Providers**
+### Streaming Providers
 
   * Twitch
     * Recorded videos on Twitch are also supported
@@ -74,7 +74,7 @@ userscript to view Google Drive-hosted videos.  Installation instructions can be
   * Ustream
   * RTMP streams: `rtmp://(stream link)`
 
-**Miscellaneous**
+## Miscellaneous
 
   * H.264 encoded .mp4 and .flv, VP8 / VP9 encoded WebM, and Ogg / Theora videos can
     be added as a direct link to the video file.†
@@ -93,7 +93,7 @@ codecs that are accepted by CyTube; if you are using an old version of ffmpeg
 then some of these supported codecs may result in errors (e.g. VP9 is not
 readable by the version of libav-tools in Debian "Wheezy" stable).
 
-## For direct links, why can't I add .mkv, .avi, or some other video format?  
+### For direct links, why can't I add .mkv, .avi, or some other video format?  
 
 While the server backend could potentially support a large number of formats for
 raw video files, CyTube is limited by the kinds of videos that can be played on
@@ -106,13 +106,13 @@ for a table of browser support.
 For best results, use .mp4 / H.264 videos as these are supported by most browsers
 and can also be played by the fallback flash player.
 
-## Why can't I add a direct link from Putlocker?
+### Why can't I add a direct link from Putlocker?
 
 Some websites, such as Putlocker, restrict access to the video link to your
 specific IP address.  These links cannot be added to CyTube, since CyTube is not
 able to access them.
 
-## How do I pause or seek the video?
+### How do I pause or seek the video?
 
 CyTube controls the video playback with a timer on the server in order to
 provide smooth playback and prevent accidental clicks by channel moderators
@@ -122,21 +122,21 @@ Leader".  While you are leader, you will be able to pause/unpause and seek the
 video.  When you're done, right click your name again and click "Take Leader".  
 This feature is disabled if you do not have the proper permission to use it.
 
-## Why does every video come up as "youtube.com/devicesupport"?
+### Why does every video come up as "youtube.com/devicesupport"?
 
 You may see this message if you are running an outdated version of CyTube, or
 have not updated your configuration since the YouTube API switch.  YouTube
 deprecated version 2 of their API in April 2015.  CyTube needs to be updated and
 configured to use version 3 of the API.
 
-## Can you add a new media provider?
+### Can you add a new media provider?
 
 Probably not.  Most media providers that are requested do not have a
 synchronization API, hence they cannot be synchronized on CyTube.  However, if a
 provider does meet the requirements and has sufficient demand, I will consider
 adding it.
 
-## How can I set a background image/customize my channel?
+### How can I set a background image/customize my channel?
 
 CyTube channels are customizable with CSS.  Click on Channel Settings, then
 click the Edit drop down and click CSS.  Mozilla has an introductory tutorial
@@ -156,13 +156,13 @@ body {
 
 (replace `link-to-image` with the full URL of the background image)
 
-## Why does the video show "Video format or MIME type not supported"?
+### Why does the video show "Video format or MIME type not supported"?
 
 This error message means the video codec being embedded is not able to be played
 by your browser.  For best codec support, try loading the website with Firefox
 or Chrome.
 
-## Why don't chat and the video load when I join a channel?  
+### Why don't chat and the video load when I join a channel?  
 
 If you don't see a green box in chat with the text "Connected", then your
 websocket connection could not be established.  This is often caused by
@@ -174,7 +174,7 @@ it works, then the antivirus or firewall is the problem.  You should check the
 manual or customer support for that specific software to figure out how to
 allow websocket connections without completely disabling the software.
 
-## How do I enable subtitles on Google Drive videos?
+### How do I enable subtitles on Google Drive videos?
 
 As of July 28th, 2015, it is now possible to use Google Drive subtitles on
 CyTube.  Please see [this link](google-drive-subtitles.md)
