@@ -153,22 +153,23 @@ At the bottom, there is a chat input bar.  If you are not logged in, it will pro
 Below the video port, there are 2 strips of buttons for playlist and video control.  Depending on your permission level, certain buttons may be disabled.  Hover over each button to see what it does.
 
 On the left are playlist controls:  
-  Control name | Description
- --------------|------------ 
-  Search for a video:|Search for a video title in the channel library or on YouTube.
-  Add from URL:|Paste a supported media link and add it to the playlist.
-  Embed a custom frame:|Embed an `<iframe>` or `<object>` tag for media that is not officially supported.
-  Manage playlists:|Save and load playlists from your user account. Playlists are attached to your username, and not to the channel name.
-  Clear playlist:|Remove all videos from the playlist.
-  Shuffle playlist:|Randomize the order of the playlist and start playing from the top.
-  Lock / Unlock playlist:|Toggle the locked status of the playlist.  Unlocked state is useful for allowing non-moderators to add videos to the playlist.  Exact open / locked permissions can be configured under the [Channel Settings](#wiki-edit--permissions) permissions editor.
+
+     Control name      | Description
+-----------------------|------------  
+Search for a video: | Search for a video title in the channel library or on YouTube.
+Add from URL: | Paste a supported media link and add it to the playlist.
+Embed a custom frame: | Embed an `<iframe>` or `<object>` tag for media that is not officially supported.
+Manage playlists: | Save and load playlists from your user account. Playlists are attached to your username, and not to the channel name.
+Clear playlist: | Remove all videos from the playlist.
+Shuffle playlist: | Randomize the order of the playlist and start playing from the top.
+Lock / Unlock playlist: | Toggle the locked status of the playlist.  Unlocked state is useful for allowing non-moderators to add videos to the playlist.  Exact open / locked permissions can be configured under the [Channel Settings](#wiki-edit--permissions) permissions editor.
 
 On the right are video controls:
- Control name | Description
- -------------|------------
-  Reload the video player:|Remove the current video and load it again. (Useful for dealing with playback issues.)
-  Retrieve playlist links:|Get a comma-separated list of all the videos in the playlist.
-  Voteskip:|Vote to skip the currently playing video.  If enough votes are counted, the next item in the playlist will immediately begin playing.
+       Control name      | Description
+ ------------------------|------------
+Reload the video player: | Remove the current video and load it again. (Useful for dealing with playback issues.)
+Retrieve playlist links: | Get a comma-separated list of all the videos in the playlist.
+Voteskip: | Vote to skip the currently playing video.  If enough votes are counted, the next item in the playlist will immediately begin playing.
 
 The **Retrieve playlist links** button will not function if you do not have the proper permission to use it. The **Voteskip** button will not function if Voteskip is disabled for the channel.
 
@@ -176,12 +177,12 @@ The **Retrieve playlist links** button will not function if you do not have the 
 The playlist is a list of videos that will be played in order from top to bottom.  Each entry will display the title and duration of the video.  Each item has a few buttons to perform certain actions, the locations of which will depend on how your user preferences are set.  Click and drag playlist items to rearrange the order.
 
 Item actions:
- Action | Description
- -------|------------
-  Play:|Immediately jump to this playlist item and begin playing.
-  Queue Next:|Move this video to the next slot after the currently playing video.
-  Make Temporary / Permanent:|Toggle whether this video will be automatically removed from the playlist after playing once.
-  Delete:|Remove this item from the playlist.
+         Action        | Description
+ ----------------------|------------
+Play: | Immediately jump to this playlist item and begin playing.
+Queue Next: | Move this video to the next slot after the currently playing video.
+Make Temporary / Permanent: | Toggle whether this video will be automatically removed from the playlist after playing once.
+Delete: | Remove this item from the playlist.
 
 ### Poll area
 The poll area allows moderators to conduct polls.  When a moderator opens a poll, a poll box will be added to the poll area.  Each option in the poll has a button next to it for users to select that option.  Each IP address can vote only once, and your vote is cleared when you leave the page.
