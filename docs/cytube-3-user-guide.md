@@ -181,55 +181,55 @@ In the navigation bar at the top of the page click on **Account** then click on 
 # Channel Settings
 From your channel page (/r/channelname), users with moderator or higher rank will see a **Channel Settings** button on the top navigation bar.  This opens a dialog box which allows various aspects of your channel to be managed, explained below:
 
-## General Settings
+## General Settings  
     Setting | Description
-    ---------------------
+    --------|------------
 Convert URLs in chat to links: |  If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
 Allow voteskip | If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.
 Voteskip ratio | The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
 Max video length | Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
 Auto-AFK Delay | After this delay (in seconds) of a user sending no chat messages and not voteskipping, the user will be automatically marked as "AFK".
 Throttle chat | Enables a flood filter that will limit how quickly a user can send chat messages.
-    # of messages allowed before throttling | When Throttle chat is active, this controls the number of messages a user can send with no time delay before the flood filter engages.
-    # of messages allowed per second | After the threshold of the flood filter is exceeded, only this number of messages from a certain user are allowed per second.  Additional messages are ignored.  
 
-### Restricting New Accounts from Chat
+### Restricting New Accounts from Chat (New in 3.0)
 With the rising availability and popularity of VPNs and proxies, dedicated
 trolls may often come back again and again with a new proxy after being IP
 banned and continue spamming.  In order to combat this, a new feature has been
 added to make it more difficult to rejoin quickly and continue spamming. Channel
 moderators now have the ability to configure 2 different settings:
 
-* **Delay before new accounts can chat:**  
-How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.
-* **Delay before new accounts can post links in chat:**  
-How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
-    
+      Setting | Description  
+      --------|------------  
+Delay before new accounts can chat: | How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.  
+Delay before new accounts can post links in chat: | How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
 This restriction applies to both chat messages sent to the channel as well as private
 messages. By default, accounts must be at least 10 minutes old to chat, and 1 hour old to send links
 in chat. The age of an account is determined as follows:
-  * If the user is logged in as a registered account, the registration time of
-    the account is used.
-  * Otherwise, the timestamp of the session cookie is used.
-The session cookie is set whenever a user first joins a channel, and is reset
-whenever the user's IP address changes.  Different browsers will have unique
-session cookies.
+   * If the user is logged in as a registered account, the registration time of
+    the account is used.  
+   * Otherwise, the timestamp of the session cookie is used. The session cookie is set whenever a user first joins a channel, and is resetwhenever the user's IP address changes. Different browsers will have unique session cookies.
 
-## Admin Settings
-  * **Page title**: The title displayed on the browser window / tab.
-  * **Password**: An optional password required for non-moderators to enter the room.  Leave blank to disable.
-  * **External CSS**: URL to an external stylesheet to apply to the page.
-  * **External Javascript**: URL to an external script to run on the page.
-  * **List channel publicly**: When enabled, displays the channel name on the index page.  Only active channels (channels with at least 1 user) will be displayed.
+## Admin Settings  
+
+    Setting | Description  
+    --------|------------
+Page title: | The title displayed on the browser window / tab.
+Password: | An optional password required for non-moderators to enter the room.  Leave blank to disable.
+External CSS: | URL to an external stylesheet to apply to the page.
+External Javascript: | URL to an external script to run on the page.
+List channel publicly: | When enabled, displays the channel name on the index page.  Only active channels (channels with at least 1 user) will be displayed.
 
 ### Edit / Chat Filters
 Chat filters provide a way for specific text to be recognized and changed in chat messages.  For example, it could be used to transform profanity to strings of asterisks.  **Please do not use chat filters for image emotes.**  CyTube has an [Emotes](#edit--emotes-new-in-cytube-30) feature which is better-suited for adding emoticons. Adding them as chat filters is more difficult to manage and uses more server resources.  
 
 ### Adding a new filter
-  * **Filter name**: A name to identify the filter.  For informational purposes only, but must be unique.
-  * **Filter regex**: A regular expression describing the text to match.
-  * **Flags**: A set of regular expression flags to apply.  `g` means to match all instances in the message (instead of just the first), `i` means to match without case sensitivity.
-  * **Replacement**: The HTML that will replace the matched text.
+
+    Setting | Description
+    --------|------------
+Filter name: | A name to identify the filter.  For informational purposes only, but must be unique.  
+Filter regex: | A regular expression describing the text to match.
+Flags: | A set of regular expression flags to apply.  `g` means to match all instances in the message (instead of just the first), `i` means to match without case sensitivity.
+Replacement: | The HTML that will replace the matched text.
 
 See the MDN page for [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) for reference on Regular Expressions and flags.
 
