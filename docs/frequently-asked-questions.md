@@ -119,8 +119,8 @@ provide smooth playback and prevent accidental clicks by channel moderators
 from interrupting the video for other people.  However, if you need to control
 the video, you can right click your name in the userlist and click "Give
 Leader".  While you are leader, you will be able to pause/unpause and seek the
-video.  When you're done, right click your name again and click "Take Leader". This  
-feature is disabled if you do not have the proper permission to use it.
+video.  When you're done, right click your name again and click "Take Leader".  
+This feature is disabled if you do not have the proper permission to use it.
 
 ## Why does every video come up as "youtube.com/devicesupport"?
 
