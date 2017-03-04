@@ -93,6 +93,7 @@ In the moderator list, you can use the **Edit** dropdown to change a user's rank
 The ban list shows a table of ban entries for the channel.  Each entry consists of a name, partially obscured IP address (or `*` if only the username was banned), the name of the moderator who added the ban, and optionally a note on why the ban was added.  Hovering over a row will reveal the ban reason.
 
 ## Log
-The log allows you to see chat history as well as moderation actions, playlist changes, and other data about your channel.  Above the log text, there is a multiple select box that you can use to display only certain kinds of log data (e.g. chat, joins/quits, playlist actions, moderation actions, etc.)
+The log allows you to see chat history as well as moderation actions, playlist changes, and other data about your channel.  Above the log text, there is a multiple select box that you can use to display only certain kinds of log data (e.g. chat, joins/quits, playlist actions, moderation actions, etc.)  
 
+[Return to the top of this page](#channel-settings)  
 [Back to Quick Reference](index.md)
