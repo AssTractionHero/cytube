@@ -1,4 +1,4 @@
-# Restricting New Accounts from Posting Messages / Links in Chat  
+## Restricting New Accounts from Posting Messages / Links in Chat  
 
 With the rising availability and popularity of VPNs and proxies, dedicated
 trolls may often return repeatedly and quickly with a new proxy to continue flooding the chat after being IP
@@ -19,4 +19,4 @@ in chat. The age of an account is determined below.
 * Otherwise, the timestamp of the session cookie is used. The session cookie is set whenever a user first joins a channel, and is reset
 whenever the user's IP address changes.  Different browsers will have unique session cookies.  
   
-[Back to Quick Reference](index.md)
+[Back to CyTube 3.0 User Guide](index.md)
