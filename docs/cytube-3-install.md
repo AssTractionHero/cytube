@@ -5,7 +5,7 @@ free to stop by IRC ([irc.6irc.net#cytube](http://webchat.6irc.net/?channels=cyt
 behind CyTube, but nuclearace has a lot of experience with it and can answer most of your questions if cal isn't around.
 
 # Table of Contents
-  1. [Requirements](#wiki-requirements)
+  1. [Requirements](#requirements)
   2. [Installation of prerequisites](#wiki-installation-of-prerequisites)
   3. [Installation of CyTube 3.0](#wiki-installation-of-cytube-30)
   4. [Configuration](#wiki-configuration)
