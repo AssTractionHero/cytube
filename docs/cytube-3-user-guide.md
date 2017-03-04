@@ -74,72 +74,42 @@ From the login page, click **Forgot password?** You will be prompted to enter yo
 # User Settings
 At the top of the page, you should see a button labeled **Options**.  This will open a dialog that allows you to configure various personal settings.  These are divided into 4 categories.
 
-## General
-### Theme
-The theme selector allows you to choose a different colorscheme for the site.  By default there are 4 themes.  **Slate** and **Cyborg** are both dark themes, **Light** is a flat, light colored scheme, and **Bootstrap** is the same colors as **Light** but with added gradients.
-
-### Layout
-The layout selector changes how the elements on the page are positioned and sized.  **Compact** and **Fluid** have chat on the left, video on the right, and polls and the playlist below.  **Synchtube** and **Synchtube + Fluid** are the same as **Compact** and **Fluid** except reversed -- chat is on the right with video on the left.  **Fluid** and **Synchtube + Fluid** will expand the chat and video to fill the width of your screen, whereas **Compact** has a static size.  **HD** places video on top, then the playlist and chat side by side, then polls below chat.
-
-### Ignore Channel CSS
-CyTube includes the ability to style channels with CSS, you can use this option to override these changes and use the default CSS.
-
-### Ignore Channel JavaScript
-This is analagous to **Ignore Channel CSS**.  If enabled, it will not run any custom JavaScript from the channel.  This is useful for recovering your channel if you make a mistake in your JavaScript that makes it impossible to revert.
-
-## Playback
-### Synchronize video playback
-This checkbox controls whether or not your video will be synchronized with the server.
-
-### Synch threshold
-This is the number of seconds representing how close your video will be synchronized with the server.  For example, with the default value (2), your video will be forced to re-sync only if it is at least 2 seconds ahead or behind the server.  Smaller values indicate more accurate synchronization, but may cause interruptions in the video due to inadequate buffering.  If you're having trouble with a slow connection, you may want to increase this setting to 5 or 10 seconds.
-
-### Set wmode=transparent
-The `wmode=transparent` parameter on the video player allows elements to be rendered over the video like normal.  However, on some implementations of Flash (e.g. Linux,) this is extremely laggy, so I added this option to force an opaque `wmode`.
-
-### Remove the video player
-This option will automatically remove the video player every time you load a channel.  It's useful if you're using CyTube on a computer or in a location where you don't want the video present.  You can do a one-time removal of the video by clicking on **Layout** then **Remove Video** from the navigation bar at the top of the page.
-
-### Hide playlist buttons by default
-Instead of **Play** / **Queue Next** / **Make Temporary** / **Delete** buttons being visible on every playlist item, they will start out hidden.  You can then right-click a playlist item to expand the buttons, and right-click it again to hide them.
-
-### Old style playlist buttons
-This is a legacy feature for people who prefer the icon-style playlist buttons from CyTube 1.0.
-
-### Quality Preference
-This dropdown allows you to select the quality parameter passed to the player when it loads a video.
+## General  
+    Setting | Description
+    --------|------------  
+   
+Theme | The theme selector allows you to choose a different colorscheme for the site.  By default there are 4 themes.  **Slate** and **Cyborg** are both dark themes, **Light** is a flat, light colored scheme, and **Bootstrap** is the same colors as **Light** but with added gradients.  
+Layout | The layout selector changes how the elements on the page are positioned and sized.  **Compact** and **Fluid** have chat on the left, video on the right, and polls and the playlist below.  **Synchtube** and **Synchtube + Fluid** are the same as **Compact** and **Fluid** except reversed -- chat is on the right with video on the left.  **Fluid** and **Synchtube + Fluid** will expand the chat and video to fill the width of your screen, whereas **Compact** has a static size.  **HD** places video on top, then the playlist and chat side by side, then polls below chat.
+Ignore Channel CSS | CyTube includes the ability to style channels with CSS, you can use this option to override these changes and use the default CSS.
+Ignore Channel JavaScript | This is analagous to Ignore Channel CSS.  If enabled, it will not run any custom JavaScript from the channel.  This is useful for recovering your channel if you make a mistake in your JavaScript that makes it impossible to revert.
+## Playback  
+    Setting | Description
+    ---------------------
+Synchronize video playback | This checkbox controls whether or not your video will be synchronized with the server.
+Synch threshold | This is the number of seconds representing how close your video will be synchronized with the server.  For example, with the default value (2), your video will be forced to re-sync only if it is at least 2 seconds ahead or behind the server.  Smaller values indicate more accurate synchronization, but may cause interruptions in the video due to inadequate buffering.  If you're having trouble with a slow connection, you may want to increase this setting to 5 or 10 seconds.
+Set wmode=transparent | The `wmode=transparent` parameter on the video player allows elements to be rendered over the video like normal.  However, on some implementations of Flash (e.g. Linux,) this is extremely laggy, so I added this option to force an opaque `wmode`.
+Remove the video player | This option will automatically remove the video player every time you load a channel.  It's useful if you're using CyTube on a computer or in a location where you don't want the video present.  You can do a one-time removal of the video by clicking on **Layout** then **Remove Video** from the navigation bar at the top of the page.
+Hide playlist buttons by default | Instead of **Play** / **Queue Next** / **Make Temporary** / **Delete** buttons being visible on every playlist item, they will start out hidden.  You can then right-click a playlist item to expand the buttons, and right-click it again to hide them.
+Old style playlist buttons | This is a legacy feature for people who prefer the icon-style playlist buttons from CyTube 1.0.
+Quality Preference | This dropdown allows you to select the quality parameter passed to the player when it loads a video.
 
 ## Chat
-### Show timestamps in chat
-If enabled, prepends a timestamp of the form [HH:MM:SS] to the beginning of each chat message with the time it was sent.
+    Setting | Description
+    --------|------------
+Show timestamps in chat | If enabled, prepends a timestamp of the form [HH:MM:SS] to the beginning of each chat message with the time it was sent.
+Sort userlist by rank | If enabled, all admins will be sorted to the top of the userlist, followed in order by moderators, registered users, and guests.  Within each rank group, names are sorted in alphabetical order.
+Sort AFKers to bottom | If enabled, users marked as AFK will appear at the bottom of the userlist.
+Blink page title on new messages | This option controls whether the page title will flash (alternate between channel title and `*Chat*`) when certain conditions occur.  If set to **Always** it will flash on every new message.  If set to **Only when I am mentioned or PMed** it will only flash if your name is present in the message, or the message is a PM.  If set to **Never** the page title will not be flashed for any message.  Please note this applies only when CyTube is not the active window.
+Notification sound on new messages | Same as above, but plays a notification sound instead of flashing the page title.
+Add a send button to chat | This adds an extra button below the chat box you can click to send a message.  This is for devices with soft keyboards that don't have an enter key (because apparently those exist?)
+Tab Completion method | This selects how tab completion behaves when used to autocomplete a string in chat with the `Tab` key, such as a username or emote tag. You can set it to cycle through all matches, or use the longest unique match that is found. 
 
-### Sort userlist by rank
-If enabled, all admins will be sorted to the top of the userlist, followed in order by moderators, registered users, and guests.  Within each rank group, names are sorted in alphabetical order.
-
-### Sort AFKers to bottom
-If enabled, users marked as AFK will appear at the bottom of the userlist.
-
-### Blink page title on new messages
-This option controls whether the page title will flash (alternate between channel title and `*Chat*`) when certain conditions occur.  If set to **Always** it will flash on every new message.  If set to **Only when I am mentioned or PMed** it will only flash if your name is present in the message, or the message is a PM.  If set to **Never** the page title will not be flashed for any message.  Please note this applies only when CyTube is not the active window.
-
-### Notification sound on new messages
-Same as above, but plays a notification sound instead of flashing the page title.
-
-### Add a send button to chat
-This adds an extra button below the chat box you can click to send a message.  This is for devices with soft keyboards that don't have an enter key (because apparently those exist?)
-
-### Tab Completion method
-This selects how tab completion behaves when used to autocomplete a string in chat with the `Tab` key, such as a username or emote tag. You can set it to cycle through all matches, or use the longest unique match that is found. 
-
-## Moderator
-### Show name color
-Colors your username when you send a chat message, based on your rank.  
-
-### Show join messages
-Shows a notification in chat whenever a user joins the channel.  
-
-### Show shadowmuted messages
-If this option is checked, the chat of shadowmuted users is visible, subdued and with a strikethrough, to moderator rank (rank 2) and above.
+## Moderator  
+    Setting | Description
+    ---------------------
+Show name color | Colors your username when you send a chat message, based on your rank.  
+Show join messages | Shows a notification in chat whenever a user joins the channel.  
+Show shadowmuted messages | If this option is checked, the chat of shadowmuted users is visible, subdued and with a strikethrough, to moderator rank (rank 2) and above.
 
 # Channel UI
 Each channel page consists of several basic sections: the chat box, the video port, the playlist controls, the playlist, and the poll area.
@@ -210,14 +180,16 @@ In the navigation bar at the top of the page click on **Account** then click on 
 From your channel page (/r/channelname), users with moderator or higher rank will see a **Channel Settings** button on the top navigation bar.  This opens a dialog box which allows various aspects of your channel to be managed, explained below:
 
 ## General Settings
-  * **Convert URLs in chat to links**: If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
-  * **Allow voteskip**: If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.
-  * **Voteskip ratio**: The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
-  * **Max video length**: Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
-  * **Auto-AFK Delay**: After this delay (in seconds) of a user sending no chat messages and not voteskipping, the user will be automatically marked as "AFK".
-  * **Throttle chat**: Enables a flood filter that will limit how quickly a user can send chat messages.
-  * **# of messages allowed before throttling**: When **Throttle chat** is active, this controls the number of messages a user can send with no time delay before the flood filter engages.
-  * **# of messages allowed per second**: After the threshold of the flood filter is exceeded, only this number of messages from a certain user are allowed per second.  Additional messages are ignored.  
+    Setting | Description
+    ---------------------
+Convert URLs in chat to links: |  If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
+Allow voteskip | If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.
+Voteskip ratio | The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
+Max video length | Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
+Auto-AFK Delay | After this delay (in seconds) of a user sending no chat messages and not voteskipping, the user will be automatically marked as "AFK".
+Throttle chat | Enables a flood filter that will limit how quickly a user can send chat messages.
+    # of messages allowed before throttling | When Throttle chat is active, this controls the number of messages a user can send with no time delay before the flood filter engages.
+    # of messages allowed per second | After the threshold of the flood filter is exceeded, only this number of messages from a certain user are allowed per second.  Additional messages are ignored.  
 
 ### Restricting New Accounts from Chat
 With the rising availability and popularity of VPNs and proxies, dedicated
