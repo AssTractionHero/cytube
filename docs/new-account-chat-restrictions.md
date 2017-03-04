@@ -1,4 +1,4 @@
-## Restricting New Accounts from Posting Messages / Links in Chat  
+# Restricting New Accounts from Posting Messages / Links in Chat  
 
 With the rising availability and popularity of VPNs and proxies, dedicated
 trolls may often return repeatedly and quickly with a new proxy to continue flooding the chat after being IP
