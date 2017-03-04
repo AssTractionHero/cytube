@@ -11,8 +11,8 @@
   * [Why does every video come up as
     "youtube.com/devicesupport"?](#why-does-every-video-come-up-as-youtubecomdevicesupport)
   * [Can you add a new media provider?](#can-you-add-a-new-media-provider)
-  * [How can I set a background image/customize my
-    channel?](#how-can-i-set-a-background-imagecustomize-my-channel)
+  * [How can I set a background image / customize my
+    channel?](#how-can-i-set-a-background-image-customize-my-channel)
   * [Why does the video show "Video format or MIME type not
     supported"?](#why-does-the-video-show-video-format-or-mime-type-not-supported)
   * [Why don't chat and the video load when I join a
@@ -59,8 +59,7 @@ with common problems and questions.
 In August 2016, after numerous failures that resulted in the disruption of the operation of many channels, 
 the decision was made to phase out native support for Google Drive and instead require users to install a 
 userscript to view Google Drive-hosted videos.  Installation instructions can be found [here]
-(gdrive-script-install.md)
- for the userscript that gives the necessary functionality to play Google Drive media.
+(gdrive-script-install.md) for the userscript that gives the necessary functionality to play Google Drive media.
  
 **Audio Providers**
 
@@ -92,7 +91,7 @@ userscript to view Google Drive-hosted videos.  Installation instructions can be
 enabled in the CyTube configuration file.  Additionally, these are just the
 codecs that are accepted by CyTube; if you are using an old version of ffmpeg
 then some of these supported codecs may result in errors (e.g. VP9 is not
-readable by the version of libav-tools in Debian wheezy stable).
+readable by the version of libav-tools in Debian "Wheezy" stable).
 
 ## For direct links, why can't I add .mkv, .avi, or some other video format?  
 
