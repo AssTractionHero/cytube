@@ -55,5 +55,5 @@ Show name color | Colors your username in chat (the same color as in the usernam
 Show join messages | Display a message every time a user logs in to the chat.
 Show shadowmuted messages | Show chat messages from shadowmuted users.  These messages will appear ~~struck through~~, and only moderators with this setting enabled will see them.  
 
-[Return to the top of this page](#user-settings)  
+[Return to the top of this page](#user-preferences)  
 [Back to Quick Reference](index.md)
