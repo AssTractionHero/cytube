@@ -14,14 +14,15 @@
   - Streamable.com
   - Dailymotion
   - Google Drive: `https://docs.google.com/file/d/(doc id)/edit` or
-    `https://drive.google.com/open?id=(doc id)`
-    * As of 14 September 2015, Google has made a breaking change and Google Drive videos on CyTube use a hacky Flash 
-    player solution that may or may not work for you. A userscript has since been developed that gives greater functionality for
-    Google Drive videos. That userscript, and detailed installation instructions can be found [here.](gdrive-script-install.md)
+    `https://drive.google.com/open?id=(doc id)`  
     * Find the video in your Drive, right click it, click "Share...", then click
       "Get shareable link".
-    * Paste the link into your playlist.
-
+    * Paste the link into your playlist.  
+    
+**Note:** In August of 2016, the decision was made to phase out native support for Google Drive. This has since been replaced with a userscript that is necessary to play Google Drive videos.  
+    
+    That userscript, and detailed installation instructions can be found [here.](gdrive-script-install.md)
+ 
 # Audio Providers
 
   - Soundcloud
