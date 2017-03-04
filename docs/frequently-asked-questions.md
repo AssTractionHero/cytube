@@ -24,8 +24,8 @@
 
 You may also find more information here:
 
-[CyTube 3.0 Quick Reference](index.md)  
-[CyTube 3.0 User Guide](cytube-3-user-guide.md)
+[CyTube 3.0 User Guide](index.md)  
+[CyTube 3.0 Wiki](cytube-3-wiki.md)
 
 Community support for CyTube is provided on
 [6IRC](http://webchat.6irc.net/?channels=cytube).  Please be patient; users in
@@ -181,4 +181,4 @@ CyTube.  Please see [this link](google-drive-subtitles.md)
 for instructions on adding subtitles to your Google Drive videos.
 
 [Return to the top of this page](#frequently-asked-questions)  
-[Back to Quick Reference](index.md)  
+[Back to CyTube 3.0 User Guide](index.md)  
