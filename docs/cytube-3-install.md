@@ -1,10 +1,10 @@
-# CyTube 3.0 Installation Guide
+## CyTube 3.0 Installation Guide
 
 This guide will walk you through installing and configuring CyTube on a Linux server.  If you have questions, feel 
 free to stop by IRC ([irc.6irc.net#cytube](http://webchat.6irc.net/?channels=cytube)).  calzoneman is the developer 
 behind CyTube, but nuclearace has a lot of experience with it and can answer most of your questions if cal isn't around.
 
-# Table of Contents
+## Table of Contents
   1. [Requirements](#requirements)
   2. [Installation of prerequisites](#installation-of-prerequisites)
   3. [Installation of CyTube 3.0](#installation-of-cytube-30)
@@ -14,7 +14,7 @@ behind CyTube, but nuclearace has a lot of experience with it and can answer mos
   7. [Google Drive Userscript Setup](#google-drive-userscript-setup)
   8. [Importing a CyTube 2.4.6 database](#importing-a-cytube-246-database)
 
-# Requirements
+## Requirements
 
 The officially supported platform for hosting a CyTube server is Linux.  I recommend Debian 8 "Jessie", but Debian 7 "Wheezy" 
 or newer versions of Ubuntu (14.04 LTS or newer) work as well.  People have also run CyTube on Mac OS X, FreeBSD, and Solaris, 
@@ -39,15 +39,15 @@ Configuring a reverse proxy is outside the scope of this guide.
 For installation purposes I will assume you have full root access to the server, whether it be a virtual server or 
 physical hardware.  I do not support installing CyTube on shared hosting platforms such as OpenShift or Heroku.
 
-# Installation of prerequisites
-## Dependencies
-### Debian / Ubuntu
+## Installation of prerequisites
+### Dependencies
+#### Debian / Ubuntu
 ```sh
 apt-get update && apt-get upgrade
 apt-get install build-essential git python mysql-server
 ```
 
-### CentOS
+#### CentOS
 ```sh
 yum update
 yum install git openssl-devel gcc-c++ mysql-server mysql mysql-devel mysql-libs
@@ -55,20 +55,20 @@ yum install git openssl-devel gcc-c++ mysql-server mysql mysql-devel mysql-libs
 
 Please make sure that during the installation of MySQL, you choose a secure password for the root user.
 
-## node.js
+### node.js
 
 For best results, use node.js 4.x (LTS) or 5.x (stable).  v0.12.x and v0.10.x are no longer supported and will not run CyTube.
 Most Debian and Red Hat based distributions do **not** include a reasonably up to date version of node.js, so I recommend 
 following the instructions on https://nodejs.org/en/download/package-manager/ to install it from the third-party nodesource repo.
 
-# Installation of CyTube 3.0
+## Installation of CyTube 3.0
 
-## User account
+### User account
 
 You should set up a user account that the CyTube process will run as.  Don't use root.  Just don't.  You can use your 
 user account, or add a new one (there are plenty of guides on how to add a new user on your favorite distribution).
 
-## Cloning from git
+### Cloning from git
 
 `cd` to the directory where you want your CyTube server.  Execute the following command to download the code from the Git repository:
 
@@ -78,14 +78,14 @@ git clone -b 3.0 https://github.com/calzoneman/sync
 
 You can optionally specify a folder name after the repository URL to rename the folder something else instead of `sync`.
 
-## NPM dependencies
+### NPM dependencies
 
 ```sh
 cd sync
 npm install
 ```
 
-### npm performance
+#### npm performance
 
 CyTube has a lot of dependencies, and some of them bring in very large dependency trees (for example, `babel`).  For this 
 reason, `npm install` may attempt to consume several gigabytes of RAM and fail when running out of memory, which leads to 
@@ -101,9 +101,9 @@ pnpm install
 If this does not work, you can try using my janky little script that installs modules one at a time: 
 [](https://gist.github.com/calzoneman/73929b0215cc5332367b9283fdf18aec)
 
-# Configuration
+## Configuration
 
-## Database
+### Database
 
 You will need to log in to your MySQL server as root to create a user and database for CyTube:
 
@@ -119,7 +119,7 @@ CREATE DATABASE cytube3;
 QUIT;
 ```
 
-## Configuration File
+### Configuration File
 
 **NOTE: The configuration file is somewhat confusing and messy.  This is a known issue that I'm planning to work on.**
 
@@ -142,7 +142,7 @@ keys are for, so I will omit explaining all of them in detail, but I would like 
   keys called `domain` specify the domain name (e.g. `mysite.com`).
   * Binding a port number below 1000 requires running the server as root.  This is one of the reasons I use nginx as a reverse proxy.
 
-# Running
+## Running
 
 Congratulations, your CyTube server is now configured!  You can launch it with `node index.js`.  On the first run, 
 your server will initialize the database, log files, and channel data folders.  You should be able to connect to your 
@@ -161,7 +161,7 @@ UPDATE `users` SET global_rank=255 WHERE name='calzoneman';
 
 Any rank >= `255` has site administrator permissions.
 
-## Persistence
+### Persistence
 There are a few options for keeping the server running after you close your SSH session:
   * `nohup node index.js &`
   * screen
@@ -172,7 +172,7 @@ nohup, screen, and tmux are all available as packages on major distributions.  u
 I have also provided a simple `run.sh` script that will automatically restart the server if it crashes.  On my server, I 
 launch it as `screen ./run.sh`.
 
-### Upstart Example
+#### Upstart Example
 
 First, create the configuration file.  The example below assumes you've cloned the repo to `/home/ubuntu/sync`.  Change 
 this directory as necessary.
@@ -205,16 +205,16 @@ Next, start the service using upstart:
 sudo service cytube start
 ```
 
-# Maintenance
+## Maintenance
 
-## Git updates
+### Git updates
 
 CyTube is actively developed and updates frequently to fix bugs and add new features.  Git provides a convenient 
 way for you to keep up with these updates.  `cd` to the directory containing CyTube, and execute `git pull` 
 to retrieve the latest code.  As of September 2015, you must also run `npm install`, `npm run postinstall`, 
 or `npm run build-server` to build the changes from `src/` to `lib/`.  After this, restart the server for the changes to take effect.
 
-## Backups
+### Backups
 
 You should take frequent backups in case something happens to your server.  The database and channel data can be backed up like so:
 
@@ -223,7 +223,7 @@ mysqldump --quick --skip-lock-tables -u cytube -psupersecretpassword cytube > my
 tar cjf my_channels_backup.tar.bz2 chandump
 ```
 
-# Google Drive Userscript Setup
+## Google Drive Userscript Setup
 
 In response to increasing difficulty and complexity of maintaining Google Drive
 support, the native player has been phased out in favor of requiring a
@@ -248,7 +248,7 @@ npm run generate-userscript CyTube http://cytu.be/r/* https://cytu.be/r/*
 
 This will generate `www/js/cytube-google-drive.user.js`.
 
-# Importing a CyTube 2.4.6 database
+## Importing a CyTube 2.4.6 database
 
 CyTube 3.0 uses a slightly different database format than previous versions.  I have provided an import script which 
 will copy data over to the new format.
@@ -281,5 +281,5 @@ Once the import script has finished, you can begin using CyTube 3.  Be sure to i
 any data from your CyTube 2 database!
 
 [Return to the top of this page](#cytube-30-installation-guide)  
-[Back to Quick Reference](index.md)  
+[Back to CyTube 3.0 User Guide](index.md)  
 
