@@ -15,4 +15,5 @@ On the navigation bar at the top of the page click **Account**, then **Change Pa
 # Recovering an Account If You Lost the Password
 From the login page, click **Forgot password?** You will be prompted to enter your username and email address. The email address must match the one associated with your account. If you have not linked an email address to your account, you cannot reset your password automatically and will need to contact an administrator for help. Otherwise, you will receive an email with a link to reset your password.
 
+[Return to the top of this page](#registering-a-new-account)  
 [Back to Quick Reference ](index.md)
