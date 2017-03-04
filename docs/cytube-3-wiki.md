@@ -1,7 +1,7 @@
-# CyTube 3.0 User Guide  
+# CyTube 3.0 Wiki  
 
 ### Before you proceed...
-Please consider scanning the [FAQ](frequently-asked-questions.md) or the [Quick Reference](index.md) first to check if your question is answered there.
+Please consider scanning the [FAQ](frequently-asked-questions.md) or the [CyTube 3.0 User Guide](index.md) first to check if your question is answered there.
 
 ***
 # Table of Contents
@@ -338,4 +338,4 @@ Please be patient; users in the support channel may not be able respond immediat
 
 [Return to the Table of Contents for this page](#table-of-contents)  
 [Go to the FAQ page](frequently-asked-questions.md)  
-[Go to the Quick Reference page](index.md)
+[Go to the CyTube 3.0 User Guide page](index.md)
