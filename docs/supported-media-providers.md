@@ -53,7 +53,7 @@ Direct links can only be added when ffmpeg is installed on the server and
 enabled in the CyTube configuration file.  Additionally, these are just the
 codecs that are accepted by CyTube; if you are using an old version of ffmpeg
 then some of these supported codecs may result in errors (e.g. VP9 is not
-readable by the version of libav-tools in Debian Wheezy stable).
+readable by the version of libav-tools in Debian "Wheezy" (stable).
 
 ## For direct links, why can't I add .mkv, .avi, or some other video format?
 
