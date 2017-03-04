@@ -1,4 +1,4 @@
-# Chat Commands
+## Chat Commands
 ### Standard Commands
   * `/me <message>` - Sends a message as an action, e.g. *calzoneman gets a snack*.
   * `/sp <message>` - Hides a message in a hover-to-expose spoiler box.
@@ -32,4 +32,4 @@ By default, channels come with a few default chat filters that can be used for f
   * `` `message` `` - `message` (monospace, code text)
   * `~~message~~` - ~~message~~
   
-[Back to Quick Reference](index.md)
+[Back to CyTube 3.0 User Guide](index.md)
