@@ -121,7 +121,7 @@ The chat box allows you to communicate with the other users in the channel.  At 
 
 The userlist consists of all the names of users in the channel who are logged in.  Right-click on a name to see a pop up with available actions for that user.  If you are not a moderator, you can choose only either to ignore the user or send them a private message.  Moderators can use this menu to kick, ban, and perform other moderating tasks.
 
-At the bottom, there is a chat input bar.  If you are not logged in, it will prompt you to choose a guest name. If you do not choose a name, after a short period one will be chosen for you. After logging in, simply type your message in the input box and press enter to send it.  Certain types of messages will be interpreted as commands, which will be covered below in [Chat Commands](#wiki-chat-commands).
+At the bottom, there is a chat input bar.  If you are not logged in, it will prompt you to choose a guest name. If you do not choose a name, after a short period one will be chosen for you. After logging in, simply type your message in the input box and press enter to send it.  Certain types of messages will be interpreted as commands, which will be covered below in [Chat Commands](#chat-commands).
 
 ### Playlist controls
 Below the video port, there are 2 strips of buttons for playlist and video control.  Depending on your permission level, certain buttons may be disabled.  Hover over each button to see what it does.
