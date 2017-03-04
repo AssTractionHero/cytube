@@ -1,10 +1,10 @@
-# Media Providers
+## Media Providers
 
-## Important Notice
+### Important Notice
 
 **As of January 10th, 2017, CyTube supports media hosted only on HTTPS-compliant sites.**
 
-# Video Providers
+### Video Providers
   - YouTube:
     * Single video: `https://www.youtube.com/watch?v=(video id)` or
       `https://youtu.be/(video id)`
@@ -23,11 +23,11 @@
     
 That userscript, and detailed installation instructions can be found [here.](gdrive-script-install.md)
  
-# Audio Providers
+### Audio Providers
 
   - Soundcloud
 
-# Streaming Providers
+### Streaming Providers
 
   - Twitch
     * Recorded videos on Twitch are also supported
@@ -36,7 +36,7 @@ That userscript, and detailed installation instructions can be found [here.](gdr
   - Ustream
   - RTMP streams: `rtmp://(stream link)`
 
-# Miscellaneous
+## Miscellaneous
 
   - H.264 encoded .mp4 and .flv, VP8 / VP9 encoded WebM, and Ogg / Theora videos can
     be added as a direct link to the video file.
@@ -55,7 +55,7 @@ codecs that are accepted by CyTube; if you are using an old version of ffmpeg
 then some of these supported codecs may result in errors (e.g. VP9 is not
 readable by the version of libav-tools in Debian "Wheezy" (stable).
 
-## For direct links, why can't I add .mkv, .avi, or some other video format?
+### For direct links, why can't I add .mkv, .avi, or some other video format?
 
 While the server backend could potentially support a large number of formats for
 raw video files, CyTube is limited by the kinds of videos that can be played on
@@ -68,20 +68,20 @@ for a table of browser support.
 For best results, use .mp4 / H.264 videos as these are supported by most browsers
 and can also be played by the fallback Flash player.
 
-## Why can't I add a direct link from Putlocker?  
+### Why can't I add a direct link from Putlocker?  
 
 Some websites, such as Putlocker, restrict access to the video link to your
 specific IP address.  These links cannot be added to CyTube, since CyTube is not
 able to access them.
 
-## Why does every video come up as "youtube.com/devicesupport"?
+### Why does every video come up as "youtube.com/devicesupport"?
 
 You may see this message if you are running an outdated version of CyTube, or
 have not updated your configuration since the YouTube API switch.  YouTube
 deprecated version 2 of their API in April 2015.  CyTube needs to be updated and
 configured to use version 3 of the API.
 
-## Can you add a new media provider?  
+### Can you add a new media provider?  
 
 Probably not.  Most media providers that are requested do not have a
 synchronization API, hence they cannot be synchronized on CyTube.  However, if a
