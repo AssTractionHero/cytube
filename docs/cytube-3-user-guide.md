@@ -130,21 +130,21 @@ On the left are playlist controls:
 
     Control name | Description  
     -------------|------------ 
-Search for a video: | Search for a video title in the channel library or on YouTube.  
-Add from URL: | Paste a supported media link and add it to the playlist.
-Embed a custom frame: | Embed an `<iframe>` or `<object>` tag for media that is not officially supported.
-Manage playlists: | Save and load playlists from your user account. Playlists are attached to your username, and not to the channel name.
-Clear playlist: | Remove all videos from the playlist.
-Shuffle playlist: | Randomize the order of the playlist and start playing from the top.
-Lock / Unlock playlist: | Toggle the locked status of the playlist.  Unlocked state is useful for allowing non-moderators to add videos to the playlist.  Exact open / locked permissions can be configured under the [Channel Settings](#wiki-edit--permissions) permissions editor.
+Search for a video | Search for a video title in the channel library or on YouTube.  
+Add from URL | Paste a supported media link and add it to the playlist.
+Embed a custom frame | Embed an `<iframe>` or `<object>` tag for media that is not officially supported.
+Manage playlists | Save and load playlists from your user account. Playlists are attached to your username, and not to the channel name.
+Clear playlist | Remove all videos from the playlist.
+Shuffle playlist | Randomize the order of the playlist and start playing from the top.
+Lock / Unlock playlist | Toggle the locked status of the playlist.  Unlocked state is useful for allowing non-moderators to add videos to the playlist.  Exact open / locked permissions can be configured under the [Channel Settings](#wiki-edit--permissions) permissions editor.
 
 On the right are video controls:
 
     Control name | Description
     -------------|------------ 
-Reload the video player: | Remove the current video and load it again. (Useful for dealing with playback issues.)
-Retrieve playlist links: | Get a comma-separated list of all the videos in the playlist.
-Voteskip: | Vote to skip the currently playing video.  If enough votes are counted, the next item in the playlist will immediately begin playing.
+Reload the video player | Remove the current video and load it again. (Useful for dealing with playback issues.)
+Retrieve playlist links | Get a comma-separated list of all the videos in the playlist.
+Voteskip | Vote to skip the currently playing video.  If enough votes are counted, the next item in the playlist will immediately begin playing.
 
 The **Retrieve playlist links** button will not function if you do not have the proper permission to use it. The **Voteskip** button will not function if Voteskip is disabled for the channel.
 
@@ -155,10 +155,10 @@ Item actions:
 
     Action | Description  
     -------|------------
-Play: | Immediately jump to this playlist item and begin playing.
-Queue Next: | Move this video to the next slot after the currently playing video.
-Make Temporary / Permanent: | Toggle whether this video will be automatically removed from the playlist after playing once.
-Delete: | Remove this item from the playlist.
+Play | Immediately jump to this playlist item and begin playing.
+Queue Next | Move this video to the next slot after the currently playing video.
+Make Temporary / Permanent | Toggle whether this video will be automatically removed from the playlist after playing once.
+Delete | Remove this item from the playlist.
 
 ### Poll area
 The poll area allows moderators to conduct polls.  When a moderator opens a poll, a poll box will be added to the poll area.  Each option in the poll has a button next to it for users to select that option.  Each IP address can vote only once, and your vote is cleared when you leave the page.
@@ -184,12 +184,12 @@ From your channel page (/r/channelname), users with moderator or higher rank wil
 ## General Settings  
     Setting | Description
     --------|------------
-Convert URLs in chat to links: |  If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
-Allow voteskip: | If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.
-Voteskip ratio: | The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
-Max video length: | Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
-Auto-AFK Delay: | After this delay (in seconds) of a user sending no chat messages and not voteskipping, the user will be automatically marked as "AFK".
-Throttle chat: | Enables a flood filter that will limit how quickly a user can send chat messages.
+Convert URLs in chat to links |  If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
+Allow voteskip | If enabled, users may click the voteskip button to indicate a preference to skip the currently playing video.
+Voteskip ratio | The proportion of votes from non-AFK users required to skip the current video.  The number of votes required is calculated as `ceil(voteskip ratio * number of non-AFK users)`.
+Max video length | Specify the maximum duration of a playlist item.  Set this to `00:00:00` to allow unlimited length.
+Auto-AFK Delay | After this delay (in seconds) of a user sending no chat messages and not voteskipping, the user will be automatically marked as "AFK".
+Throttle chat | Enables a flood filter that will limit how quickly a user can send chat messages.
 
 ### Restricting New Accounts from Chat (New in 3.0)
 With the rising availability and popularity of VPNs and proxies, dedicated
@@ -200,8 +200,8 @@ moderators now have the ability to configure 2 different settings:
 
       Setting | Description  
       --------|------------  
-Delay before new accounts can chat: | How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.  
-Delay before new accounts can post links in chat: | How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
+Delay before new accounts can chat | How long an account must be active before the user can send any chat message. Setting it to `00:00` disables this restriction.  
+Delay before new accounts can post links in chat | How long an account must be active before the user can send a chat message containing a URL. Setting it to `00:00` disables this restriction.  
 This restriction applies to both chat messages sent to the channel as well as private
 messages. By default, accounts must be at least 10 minutes old to chat, and 1 hour old to send links
 in chat. The age of an account is determined as follows:
