@@ -24,8 +24,8 @@
 
 You may also find more information here:
 
-[CyTube 3.0 Quick Reference](https://github.com/AssTractionHero/cytube/blob/3.0/docs/index.md)  
-[CyTube 3.0 User Guide](https://github.com/AssTractionHero/cytube/wiki/CyTube-3.0-User-Guide)
+[CyTube 3.0 Quick Reference](index.md)  
+[CyTube 3.0 User Guide](cytube-3-user-guide.md)
 
 Community support for CyTube is provided on
 [6IRC](http://webchat.6irc.net/?channels=cytube).  Please be patient; users in
@@ -59,7 +59,7 @@ with common problems and questions.
 In August 2016, after numerous failures that resulted in the disruption of the operation of many channels, 
 the decision was made to phase out native support for Google Drive and instead require users to install a 
 userscript to view Google Drive-hosted videos.  Installation instructions can be found [here]
-(https://github.com/AssTractionHero/cytube/blob/3.0/docs/gdrive-script-install.md)
+(gdrive-script-install.md)
  for the userscript that gives the necessary functionality to play Google Drive media.
  
 **Audio Providers**
@@ -75,7 +75,7 @@ userscript to view Google Drive-hosted videos.  Installation instructions can be
   * Ustream
   * RTMP streams: `rtmp://(stream link)`
 
-**Misc**
+**Miscellaneous**
 
   * H.264 encoded .mp4 and .flv, VP8 / VP9 encoded WebM, and Ogg / Theora videos can
     be added as a direct link to the video file.†
@@ -143,7 +143,7 @@ CyTube channels are customizable with CSS.  Click on Channel Settings, then
 click the Edit drop down and click CSS.  Mozilla has an introductory tutorial
 about CSS
 [here](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started).  
-Another site that has a good tutorial for learning CSS is [W3Schools Online](https://www.w3schools.com/css/default.asp).  
+This is another site that has a good tutorial for learning CSS [W3Schools Online](https://www.w3schools.com/css/default.asp).  
 
 If you're not concerned about other customizations and just want a background
 image, you can use the following CSS:
