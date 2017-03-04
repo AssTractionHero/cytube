@@ -55,7 +55,7 @@ with common problems and questions.
     * Find the video in your drive, right click it, click "Share...", then click
       "Get shareable link". 
 
-**Important**  
+## Important Notice  
 In August 2016, after numerous failures that resulted in the disruption of the operation of many channels, 
 the decision was made to phase out native support for Google Drive and instead require users to install a 
 userscript to view Google Drive-hosted videos.  Installation instructions can be found [here]
