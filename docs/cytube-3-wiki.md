@@ -333,4 +333,4 @@ Please be patient; users in the support channel may not be able respond immediat
 
 [Return to the Table of Contents for this page](#table-of-contents)  
 [Go to the FAQ page](frequently-asked-questions.md)  
-[Go to the CyTube 3.0 User Guide page](index.md)
+[Back to the CyTube 3.0 User Guide](index.md)
