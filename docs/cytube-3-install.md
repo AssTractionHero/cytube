@@ -281,5 +281,5 @@ Once the import script has finished, you can begin using CyTube 3.  Be sure to i
 any data from your CyTube 2 database!
 
 [Return to the top of this page](#cytube-30-installation-guide)  
-[Back to CyTube 3.0 User Guide](index.md)  
+[Back to the CyTube 3.0 User Guide](index.md)  
 
