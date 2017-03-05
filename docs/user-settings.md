@@ -56,4 +56,4 @@ Show join messages | Display a message every time a user logs in to the chat.
 Show shadowmuted messages | Show chat messages from shadowmuted users.  These messages will appear ~~struck through~~, and only moderators with this setting enabled will see them.  
 
 [Return to the top of this page](#user-preferences)  
-[Back to CyTube 3.0 User Guide](index.md)
+[Back to the CyTube 3.0 User Guide](index.md)
