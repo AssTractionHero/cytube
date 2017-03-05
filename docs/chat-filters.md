@@ -20,4 +20,4 @@ The **Filter Links** checkbox controls whether this filter will be applied to li
 ### Importing / Exporting filters (New in CyTube 3.0)
 You can export and import your channel's filter list in order to back it up or transfer it to another channel.  Clicking **Export filter list** will populate the text area with a JSON-encoded list of filter data.  To import a filter list, paste the JSON data in the textbox and click **Import filter list**.  The import tool is very strict on format and will reject invalid filters, so please be careful to store the exported data verbatim.
 
-[Back to CyTube 3.0 User Guide](index.md)
+[Back to the CyTube 3.0 User Guide](index.md)
