@@ -136,7 +136,7 @@ synchronization API, hence they cannot be synchronized on CyTube.  However, if a
 provider does meet the requirements and has sufficient demand, I will consider
 adding it.
 
-### How can I set a background image/customize my channel?
+### How can I set a background image / customize my channel?
 
 CyTube channels are customizable with CSS.  Click on **Channel Settings**, then
 click the **Edit** drop down and click **CSS**.  Mozilla has an introductory tutorial
