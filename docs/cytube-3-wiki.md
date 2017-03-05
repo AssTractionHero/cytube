@@ -4,7 +4,7 @@
 Please consider scanning the [FAQ](frequently-asked-questions.md) or the [CyTube 3.0 User Guide](index.md) first to check if your question is answered there.
 
 ***
-# Table of Contents
+## Table of Contents
 1. [What's New](#wiki-whats-new)
 2. [Registering a New Account](#registering-a-new-account)  
       2.1. [Account Profile](#account-profile)  
@@ -35,7 +35,7 @@ Please consider scanning the [FAQ](frequently-asked-questions.md) or the [CyTube
 10. [Help / Support](#help--support)
 
 ***
-# What's new
+## What's new
   * UI Changes
     * Updated bootstrap to v3.0
     * Redesigned playlist controls
@@ -54,7 +54,7 @@ Please consider scanning the [FAQ](frequently-asked-questions.md) or the [CyTube
     * Built-in emote support
     * Private messaging
 
-# Registering a New Account
+## Registering a New Account
 To register an account, click the **Account** dropdown on the navigation bar at the top of the page, then click **Register**. This option will appear only if you are not already logged in. When choosing a username, make sure it meets the following requirements:
 * It must be 1-20 characters long.
 * It may contain only the letters 'A' through 'Z' (upper or lowercase), the digits '0' through '9', hyphens '-', and underscores '_'.
@@ -71,10 +71,10 @@ On the navigation bar at the top of the page click **Account**, then **Change Pa
 ### Recovering an Account If You Lost the Password
 From the login page, click **Forgot password?** You will be prompted to enter your username and email address. The email address must match the one associated with your account. If you have not linked an email address to your account, you cannot reset your password automatically and will need to contact an administrator for help. Otherwise, you will receive an email with a link to reset your password.
 
-# User Settings
+## User Settings
 At the top of the page, you should see a button labeled **Options**.  This will open a dialog divided into 4 categories that allows you to configure various personal settings.  
 
-## General
+### General
 
     Setting | Description
     --------|------------  
@@ -83,7 +83,7 @@ Layout | The layout selector changes how the elements on the page are positioned
 Ignore Channel CSS | CyTube includes the ability to style channels with CSS, you can use this option to override these changes and use the default CSS.  
 Ignore Channel JavaScript | This is analagous to Ignore Channel CSS.  If enabled, it will not run any custom JavaScript from the channel.  This is useful for recovering your channel if you make a mistake in your JavaScript that makes it impossible to revert.  
 
-## Playback
+### Playback
 
     Setting | Description
     --------|------------  
@@ -95,7 +95,7 @@ Hide playlist buttons by default | Instead of **Play** / **Queue Next** / **Make
 Old style playlist buttons | This is a legacy feature for people who prefer the icon-style playlist buttons from CyTube 1.0.  
 Quality Preference | This dropdown allows you to select the quality parameter passed to the player when it loads a video.
 
-## Chat
+### Chat
     Setting | Description
     --------|------------  
 Show timestamps in chat | If enabled, prepends a timestamp of the form [HH:MM:SS] to the beginning of each chat message with the time it was sent.  
@@ -106,14 +106,14 @@ Notification sound on new messages | Same as above, but plays a notification sou
 Add a send button to chat | This adds an extra button below the chat box you can click to send a message.  This is for devices with soft keyboards that don't have an enter key (because apparently those exist?)  
 Tab Completion method | This selects how tab completion behaves when used to autocomplete a string in chat with the `Tab` key, such as a username or emote tag. You can set it to cycle through all matches, or use the longest unique match that is found. 
 
-## Moderator  
+### Moderator  
     Setting | Description
     --------|------------  
 Show name color | Colors your username when you send a chat message, based on your rank.  
 Show join messages | Shows a notification in chat whenever a user joins the channel.  
 Show shadowmuted messages | If this option is checked, the chat of shadowmuted users is visible, subdued and with a strikethrough, to moderator rank (rank 2) and above.
 
-# Channel UI
+## Channel UI
 Each channel page consists of several basic sections: the chat box, the video port, the playlist controls, the playlist, and the poll area.
 
 ### Chat box
@@ -165,11 +165,7 @@ The poll area allows moderators to conduct polls.  When a moderator opens a poll
 
 The buttons next to each option will display the number of votes for that option.  If it displays **?**, the user that opened the poll has elected to hide the results until the poll is over.  
 
-### Changing the Size of the Video Frame
-
-In early 2017, a feature was added that allows users to change the size of the video frame on a channel page. These buttons, **+** and **-**, located over the right side of the top of the video frame, control the size of it in relation to the chat pane. The **+** button increases the size of the video frame, **-** decreases the size.
-
-# Channel Management
+## Channel Management
 You must be logged in to your account to manage your channels.
 
 ### Registering a Channel
@@ -178,10 +174,10 @@ In the navigation bar at the top of the page click on **Account** then click on 
 ### Deleting a Channel
 In the navigation bar at the top of the page click on **Account** then click on **Channels**.  The left column lists all channels registered to your name.  Click the **Delete** button to unregister a channel.  This will permanently clear all database information (ranks, library, bans,) and state information (playlist, configuration, MOTD, filters, etc.,) and is **non-reversible**.  You will be asked to confirm your deletion.  
 
-# Channel Settings
+## Channel Settings
 From your channel page (/r/channelname), users with moderator or higher rank will see a **Channel Settings** button on the top navigation bar.  This opens a dialog box which allows various aspects of your channel to be managed, explained below:
 
-## General Settings  
+### General Settings  
     Setting | Description
     --------|------------
 Convert URLs in chat to links |  If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
@@ -208,7 +204,7 @@ in chat. The age of an account is determined as follows:
     the account is used.  
    * Otherwise, the timestamp of the session cookie is used. The session cookie is set whenever a user first joins a channel, and is resetwhenever the user's IP address changes. Different browsers will have unique session cookies.
 
-## Admin Settings  
+### Admin Settings  
 
     Setting | Description  
     --------|------------
@@ -278,7 +274,7 @@ The ban list shows a table of ban entries for the channel.  Each entry consists 
 ### Log
 The log allows you to see chat history as well as moderation actions, playlist changes, and other data about your channel.  Above the log text, there is a multiple select box that you can use to display only certain kinds of log data (e.g. chat, joins/quits, playlist actions, moderation actions, etc.)
 
-# Chat Commands
+## Chat Commands
 ### Standard Commands
   * `/me <message>` - Sends a message as an action, for example *calzoneman gets a snack*.
   * `/sp <message>` - Hides a message in a hover-to-expose spoiler box.
@@ -311,10 +307,10 @@ By default, channels come with a few default chat filters that can be used for f
   * `` `message` `` - `message` (monospace, code text)
   * `~~message~~` - ~~message~~
 
-#  Supported Media Providers
+##  Supported Media Providers
 See the [FAQ](frequently-asked-questions.md#which-media-providers-are-supported) for a list of supported media providers.
 
-# Adding Subtitles to Google Drive Videos
+## Adding Subtitles to Google Drive Videos
 1. Upload your video to Google Drive.
 2. Right-click the video in Google Drive and click **Manage caption tracks**.
 3. Click **Add new captions or transcripts**.
@@ -327,10 +323,10 @@ Once you have uploaded your subtitles, they should be available the next time th
 * Google Drive converts the subtitles you upload into a custom format which loses some information from the original captions. For example, annotations for who is speaking are not preserved.
 * As far as I know, Google Drive is not able to automatically detect when subtitle tracks are embedded within the video file. You must upload the subtitles separately (there are plenty of tools to extract captions / subtitles from .mkv and .mp4 files.)
 
-# Userscript for Google Drive Media Playback
+## Userscript for Google Drive Media Playback
 An additional userscript must be installed in a browser host extension / add-on in order to view media on CyTube that's hosted on Google Drive. A detailed installation guide can be found here: [CyTube Google Drive Userscript Installation Guide](gdrive-script-install.md)
 
-# Help / Support
+## Help / Support
 If you need help, you are encouraged to join the official CyTube support channel in IRC at [irc.6irc.net#cytube](http://webchat.6irc.net/?channels=cytube).  calzoneman is the developer, nuclearace is a CyTube admin, and many other people in the channel can help with common questions.
 
 Please be patient; users in the support channel may not be able respond immediately. Most of the users in the channel are in the United States, so if you have trouble getting a response please try to come during USA daytime hours.
