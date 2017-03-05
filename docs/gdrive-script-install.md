@@ -75,4 +75,4 @@ on CyTube, even if third-party cookies are not blocked. Disabling the AdBlock or
 the CyTube site should fix this problem.  
 
 [Return to the top of this page](#google-drive-userscript-installation)  
-[Back to CyTube 3.0 User Guide](index.md)
+[Back to the CyTube 3.0 User Guide](index.md)
