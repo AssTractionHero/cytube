@@ -138,8 +138,8 @@ adding it.
 
 ### How can I set a background image/customize my channel?
 
-CyTube channels are customizable with CSS.  Click on Channel Settings, then
-click the Edit drop down and click CSS.  Mozilla has an introductory tutorial
+CyTube channels are customizable with CSS.  Click on **Channel Settings**, then
+click the **Edit** drop down and click **CSS**.  Mozilla has an introductory tutorial
 about CSS
 [here](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started).  
 This is another site that has a good tutorial for learning CSS:
