@@ -32,4 +32,4 @@ By default, channels come with a few default chat filters that can be used for f
   * `` `message` `` - `message` (monospace, code text)
   * `~~message~~` - ~~message~~
   
-[Back to CyTube 3.0 User Guide](index.md)
+[Back to the CyTube 3.0 User Guide](index.md)
