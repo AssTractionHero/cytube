@@ -19,4 +19,4 @@ in chat. The age of an account is determined below.
 * Otherwise, the timestamp of the session cookie is used. The session cookie is set whenever a user first joins a channel, and is reset
 whenever the user's IP address changes.  Different browsers will have unique session cookies.  
   
-[Back to CyTube 3.0 User Guide](index.md)
+[Back to the CyTube 3.0 User Guide](index.md)
