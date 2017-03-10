@@ -47,7 +47,7 @@ Manage your preferences for allowing or denying custom scripts for channels you'
 
 ### Moderator
 
-Settings that only apply to channel moderators.
+Settings that only apply only to users with channel moderator privileges.
 
 Setting | Description
 --------|------------
