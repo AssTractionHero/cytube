@@ -74,7 +74,9 @@ From the login page, click **Forgot password?** You will be prompted to enter yo
 ## User Settings
 At the top of the page, you should see a button labeled **Options**.  This will open a dialog divided into 4 categories that allows you to configure various personal settings.  
 
-### General
+### General  
+  
+General interface settings.
 
     Setting | Description
     --------|------------  
@@ -83,7 +85,9 @@ Layout | The layout selector changes how the elements on the page are positioned
 Ignore Channel CSS | CyTube includes the ability to style channels with CSS, you can use this option to override these changes and use the default CSS.  
 Ignore Channel JavaScript | This is analagous to Ignore Channel CSS.  If enabled, it will not run any custom JavaScript from the channel.  This is useful for recovering your channel if you make a mistake in your JavaScript that makes it impossible to revert.  
 
-### Playback
+### Playback  
+  
+Preferences for video playback and the playlist.
 
     Setting | Description
     --------|------------  
@@ -95,7 +99,10 @@ Hide playlist buttons by default | Instead of **Play** / **Queue Next** / **Make
 Old style playlist buttons | This is a legacy feature for people who prefer the icon-style playlist buttons from CyTube 1.0.  
 Quality Preference | This dropdown allows you to select the quality parameter passed to the player when it loads a video.
 
-### Chat
+### Chat  
+  
+Preferences for the integrated chatroom.  
+
     Setting | Description
     --------|------------  
 Show timestamps in chat | If enabled, prepends a timestamp of the form [HH:MM:SS] to the beginning of each chat message with the time it was sent.  
@@ -107,6 +114,9 @@ Add a send button to chat | This adds an extra button below the chat box you can
 Tab Completion method | This selects how tab completion behaves when used to autocomplete a string in chat with the `Tab` key, such as a username or emote tag. You can set it to cycle through all matches, or use the longest unique match that is found. 
 
 ### Moderator  
+  
+Settings that apply only to users with channel moderator privileges.  
+
     Setting | Description
     --------|------------  
 Show name color | Colors your username when you send a chat message, based on your rank.  
@@ -177,7 +187,8 @@ In the navigation bar at the top of the page click on **Account** then click on 
 ## Channel Settings
 From your channel page (/r/channelname), users with moderator or higher rank will see a **Channel Settings** button on the top navigation bar.  This opens a dialog box which allows various aspects of your channel to be managed, explained below:
 
-### General Settings  
+### General Settings
+
     Setting | Description
     --------|------------
 Convert URLs in chat to links |  If enabled, URLs entered into chat (e.g. http://google.com) will be converted to clickable hyperlinks.
@@ -205,7 +216,7 @@ in chat. The age of an account is determined as follows:
    * Otherwise, the timestamp of the session cookie is used. The session cookie is set whenever a user first joins a channel, and is resetwhenever the user's IP address changes. Different browsers will have unique session cookies.
 
 ### Admin Settings  
-
+  
     Setting | Description  
     --------|------------
 Page title: | The title displayed on the browser window / tab.
