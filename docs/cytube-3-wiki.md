@@ -9,7 +9,7 @@ Please consider scanning the [FAQ](frequently-asked-questions.md) or the [CyTube
 2. [Registering a New Account](#registering-a-new-account)  
       2.1. [Account Profile](#account-profile)  
       2.2. [Changing your Password or Email Address](#changing-your-password-or-email-address)  
-      2.3. [Important Warning!] (#wiki-Important-Warning!)  
+      2.3. [Important Warning!](#important-warning)
       2.3. [Recovering an Account If You Lost The Password](#recovering-an-account-if-you-lost-the-password)  
 3. [User Settings](#user-settings)  
      3.1. [General](#general)  
