@@ -7,7 +7,7 @@ Be sure to pick a strong password that is both not easily guessable and is not t
 
 ## Important warning!  
 
-**Although entering an email address is optional, if you do not enter a valid email address to recover your password, this will make it very difficult to recover your account if you lost the password.**  
+**Although entering an email address is optional, if you do not enter a valid email address to recover your password, this will make it very difficult to recover your account if you lost the password. Your email address will be used only to verify your identity on CyTube.**  
 
 ### Account Profile
 Each CyTube account can set a profile photo and short description. On the navigation bar at the top of the page click **Account**, then **Profile**. You can then enter the URL of a profile image (the URL must end in .gif, .jpg, or .png,) and enter a short text blurb that will be displayed when users hover over your name in the chat username list.  
