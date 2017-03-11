@@ -61,15 +61,15 @@ To register an account, click the **Account** dropdown on the navigation bar at 
 
 Be sure to pick a strong password that is both not easily guessable and is not the same as your accounts on other websites.  
 
-## Important warning!
-**Although entering an email address is optional, if you do not enter a valid email address to recover your password this will make it very difficult to recover your account if you lost it. Your email address will be used only to verify your identity on CyTube.**
-
 ### Account Profile
 Each CyTube account can set a profile photo and short description. On the navigation bar at the top of the page click **Account**, then **Profile**. You can then enter the URL of a profile image (the URL must end in .gif, .jpg, or .png,) and enter a short text blurb that will be displayed when users hover over your name in the chat username list.  
 **Important**: this is publicly visible to anyone, so don't use a private photo or include private information in your description.
 
 ### Changing your Password or Email Address
-On the navigation bar at the top of the page click **Account**, then **Change Password / Email**. You must provide your current password in order to change either of these settings. You can leave the email address box blank if you wish to remove the email address from your account. (Be aware that this means you will no longer be able to receive password reset emails.)
+On the navigation bar at the top of the page click **Account**, then **Change Password / Email**. You must provide your current password in order to change either of these settings.  
+
+## Important warning!
+**Although entering an email address is optional, if you do not enter a valid email address to recover your password this will make it very difficult to recover your account if you lost it. Your email address will be used only to verify your identity on CyTube.**
 
 ### Recovering an Account If You Lost the Password
 From the login page, click **Forgot password?** You will be prompted to enter your username and email address. The email address must match the one associated with your account. If you have not linked an email address to your account, you cannot reset your password automatically and will need to contact an administrator for help. Otherwise, you will receive an email with a link to reset your password.
