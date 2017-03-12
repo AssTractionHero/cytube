@@ -5,8 +5,7 @@ To register an account, click the **Account** dropdown on the navigation bar at 
 
 Be sure to pick a strong password that is both not easily guessable and is not the same as your accounts on other websites.
 
-## Important warning!  
-
+## IMPORTANT  
 **Although entering an email address is optional, if you do not enter a valid email address to recover your password this will make it impossible to recover your account if you lost it. Your email address will be used only to verify your identity on CyTube.**  
 
 ### Account Profile
