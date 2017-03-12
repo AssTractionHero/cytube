@@ -1,6 +1,6 @@
 ## Google Drive Userscript Installation
 
-This guide will walk you through the installation of a userscript necessary to play media hosted by Google Drive on newer CyTube installations. This userscript will function only if you connect to CyTube from https://cytu.be or https://www.cytu.be, connections from other URLs are not supported by this script.
+This guide will walk you through the installation of a userscript necessary to play media hosted by Google Drive on newer CyTube installations. This userscript will function only if you connect to CyTube from cytu.be or www.cytu.be, connections from other URLs are not supported by this script.
 
 ### If you already know what a userscript is, you can install it from this link: 
 [CyTube Google Drive Userscript](https://cytu.be/js/cytube-google-drive.user.js?v=1.1)
