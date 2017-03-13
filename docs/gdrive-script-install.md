@@ -53,7 +53,9 @@ The installation process for other browsers should work in much the same way:
 
 ### Third-party cookies
 In both the Chrome and the Firefox installations of the userscript, **it's important that your browser does not block 
-third-party cookies**.
+third-party cookies**. CyTube itself does not use third-party cookies, but Google Drive requires them to be enabled in 
+order to function.  
+
 #### Chrome
 In Chrome, the setting for third-party cookies is found from entering **chrome://settings/content** into the omnibox. Either the checkbox for **Block third-party cookies and site data** should be unchecked, or an exception for **cytu.be** should be made by 
 clicking on the **Manage exceptions...** button.
