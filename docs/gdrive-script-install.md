@@ -72,7 +72,8 @@ clicking on the **Exceptions...** button.
 ### AdBlock and Privacy Badger
 Other extensions such as AdBlock and Privacy Badger may also block the necessary trackers for Google Drive media playback 
 on CyTube, even if third-party cookies are not blocked. Disabling the AdBlock or Privacy Badger extensions while on 
-the CyTube site should fix this problem.  
+the CyTube site should fix this problem. CyTube does not show ads or use invasive tracking content, but Google Drive
+may have issues with it.
 
 [Return to the top of this page](#google-drive-userscript-installation)  
 [Back to the CyTube 3.0 User Guide](index.md)
