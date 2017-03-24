@@ -3,8 +3,8 @@ Chat filters provide a way for specific text to be recognized and changed in cha
 
 ### Adding a new filter
 
-    Setting name | Description  
-    -------------|------------  
+  Setting name | Description  
+  -------------|------------  
     Filter name | A name to identify the filter.  For informational purposes only, but must be unique.  
     Filter regex | A regular expression describing the text to match.  
     Flags | A set of regular expression flags to apply.  `g` means to match all instances in the message (instead of just the first), `i` means to match without case sensitivity.  
