@@ -16,6 +16,6 @@ Each CyTube account can set a profile photo and short description. On the naviga
 On the navigation bar at the top of the page click **Account**, then **Change Password / Email**. You must provide your current password in order to change either of these settings. You can leave the email address box blank if you wish to remove the email address from your account. (Be aware that this means you will no longer be able to receive password reset emails.)
 
 ### Recovering an Account If You Lost the Password
-From the login page, click **Forgot password?** You will be prompted to enter your username and email address. The email address must match the one associated with your account. If you have not linked an email address to your account, you cannot reset your password automatically and will need to contact an administrator for help. Otherwise, you will receive an email with a link to reset your password.
+From the login page, click **Forgot password?** You will be prompted to enter your username and email address. The email address must match the one associated with your account. If you have not linked an email address to your account, you cannot reset your password automatically. Otherwise, you will receive an email with a link to reset your password.
 
 [Back to the CyTube 3.0 User Guide](index.md)
