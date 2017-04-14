@@ -58,7 +58,7 @@ with common problems and questions.
 ## Important Notice  
 In August 2016, after numerous failures that resulted in the disruption of the operation of many channels, 
 the decision was made to phase out native support for Google Drive and instead require users to install a 
-userscript to view Google Drive-hosted videos.  Installation instructions can be found [here](gdrive-script-install.md)
+userscript to view Google Drive-hosted videos.  Installation instructions can be found [in this link](gdrive-script-install.md)
 for the userscript that gives the necessary functionality to play Google Drive media.
  
 ### Audio Providers
