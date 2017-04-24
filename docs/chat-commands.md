@@ -22,7 +22,7 @@
   * `/clean <user>` - Removes all playlist entries from the given user.
   * `/cleantitle <title>` - Removes all playlist entries that match the given title.
   * `/d <message>` - Calls a drink with the given message.
-  * `/d# [<message>]` - Calls # drinks, optionally with a message.  # can be positive or negative.
+  * `/d# [<message>]` - Calls # drinks, optionally with a message.  # can be positive or negative. Calling a negative drink number may be   used to cancel out the drink counter to zero and remove the drinkbar at the top of the page. The drink counter is automatically reset     whenever a new video is queued.
 
 ### Default formatting
 By default, channels come with a few default chat filters that can be used for formatting:
