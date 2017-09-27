@@ -57,10 +57,10 @@ third-party cookies**. CyTube itself does not use third-party cookies, but Googl
 order to function.  
 
 #### Chrome
-In Chrome, the setting for third-party cookies is found from entering **chrome://settings/content** into the omnibox. Either the checkbox for **Block third-party cookies and site data** should be unchecked, or an exception for **cytu.be** should be made by 
+In Chrome, the setting for third-party cookies is found from entering **chrome://settings/content/cookies** into the omnibox. Either the checkbox for **Block third-party cookies and site data** should be unchecked, or an exception for **cytu.be** should be made by 
 clicking on the **Manage exceptions...** button.
 
-![](http://i.imgur.com/LCUiEVd.png)
+![](https://i.imgur.com/pRGXM9C.png)
 
 #### Firefox
 In Firefox, the third-party cookies setting is found from entering **about:preferences#privacy**
