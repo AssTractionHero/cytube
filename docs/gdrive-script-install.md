@@ -77,7 +77,7 @@ on CyTube, even if third-party cookies are not blocked. Disabling the AdBlock or
 the CyTube site should fix this problem. You also can go to the extensions settings page in Chrome by typing **chrome://extensions** into the omnibox, disable everything (excluding Tampermonkey, which is required for the script to work,) and re-enable each extension until you pinpoint the cause of the problem. CyTube does not show ads or use invasive tracking content, but Google Drive
 may have issues with it.
 
-###Other Issues
+###Other Issues  
 Audio equalizer extensions for Chrome will also interfere with the userscript and cause the video player to fail to load, or result in corrupted audio.
 
 [Return to the top of this page](#google-drive-userscript-installation)  
