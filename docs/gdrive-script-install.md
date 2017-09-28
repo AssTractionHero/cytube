@@ -74,8 +74,8 @@ clicking on the **Exceptions...** button.
 ### AdBlock and Privacy Badger
 Other extensions such as AdBlock and Privacy Badger may also block the necessary trackers for Google Drive media playback 
 on CyTube, even if third-party cookies are not blocked. Disabling the AdBlock or Privacy Badger extensions while on 
-the CyTube site should fix this problem. You also can go to the extensions settings page in Chrome by typing **chrome://extensions** into the omnibox, disable everything (excluding Tampermonkey, which is required for the script to work,) and re-enable each extension until you pinpoint the cause of the problem. CyTube does not show ads or use invasive tracking content, but Google Drive
-may have issues with it.
+the CyTube site should fix this problem. You also can go to the extensions / addons settings page by typing **chrome://extensions** into the omnibox in Chrome, or by typing **about:addons** into the omnibox in Firefox. Disable everything (excluding Tampermonkey, which is required for the script to work,) and re-enable each extension / addon until you pinpoint the cause of the problem.  
+CyTube does not show ads or use invasive tracking content, but Google Drive may have issues with it.
 
 ### Other Issues  
 Audio equalizer extensions for Chrome will also interfere with the userscript and cause the video player to fail to load, or result in corrupted audio.
