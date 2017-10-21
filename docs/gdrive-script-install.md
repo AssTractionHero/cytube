@@ -58,7 +58,7 @@ order to function.
 
 #### Chrome
 In Chrome, the setting for third-party cookies is found from entering **chrome://settings/content/cookies** into the omnibox. Either the switch for **Block third-party cookies** should be toggled off, or an exception for **cytu.be** should be made by 
-clicking on the **Manage exceptions...** button.
+clicking on the **Add** button to the right of the "Allow" header.
 
 ![](https://i.imgur.com/bcSaYYT.png)
 
