@@ -28,7 +28,7 @@ You may also find more information here:
 [CyTube 3.0 Wiki](cytube-3-wiki.md)
 
 Community support for CyTube is provided on
-[6IRC](http://webchat.6irc.net/?channels=cytube).  Please be patient; users in
+[EsperNet](http://webchat.esper.net/?channels=cytube).  Please be patient; users in
 the support channel may not respond immediately.  Most of the users in the
 channel are in the United States, so if you have trouble getting a response,
 please try to come during U.S.A. daytime hours.
