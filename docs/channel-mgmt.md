@@ -36,8 +36,7 @@ External Javascript | URL to an external script to run on the page.
 List channel publicly | When enabled, displays the channel name on the index page.  Only active channels (channels with at least 1 user) will be displayed.
 Block connections from TOR | Prevents users from connecting through TOR.
 Allow ASCII control characters (e.g. newlines) | When enabled, control characters are enabled in chat.
-Max # of videos per user | When enabled, limits the number of videos that a user may add to the playlist. Set this to '0' for
-no limit.
+Max # of videos per user | When enabled, limits the number of videos that a user may add to the playlist. Set this to '0' for no limit.
 
 ### Edit / Chat Filters
 Chat filters provide a way for specific text to be recognized and changed in chat messages.  For example, it could be used to transform profanity to strings of asterisks.  **Please do not use chat filters for image emotes.**  CyTube 3.0 has an emotes feature which is better-suited for adding emoticons. Adding them as chat filters is more difficult to manage and uses more server resources.  
